@@ -1,5 +1,11 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="img/favicon-48.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <title>Techno Freeze Consulting</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="تكنو فريز للاستشارات الهندسية — مكتب استشارات كهروميكانيكية في القاهرة منذ 2004: تصميم وإشراف على أنظمة التكييف والحريق والكهرباء والسباكة والغازات الطبية.">
 <meta name="theme-color" content="#283068">
 <meta property="og:title" content="Techno Freeze Consulting — تكنو فريز للاستشارات الهندسية">
@@ -45,7 +51,7 @@
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
-body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16.5px;line-height:1.95;-webkit-font-smoothing:antialiased;overflow-x:hidden;text-rendering:optimizeLegibility}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16.5px;line-height:1.95;-webkit-font-smoothing:antialiased;overflow-x:hidden;text-rendering:optimizeLegibility}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:70;background:var(--navy-deep)}
 body.lock{overflow:hidden}
 a{color:inherit}
@@ -495,7 +501,7 @@ form.consult{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px
 .ftr .circ::before{background:var(--yellow)}
 .ftr .circ:hover,.ftr .circ:focus-visible{color:var(--navy);border-color:var(--yellow)}
 @media (max-width:900px){.ftr-cols{grid-template-columns:repeat(2,minmax(0,1fr))}.ftr-about{grid-column:1/-1}}
-@media (max-width:480px){.ftr-cols{grid-template-columns:1fr}}
+@media (max-width:480px){.ftr-cols{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 20px}.ftr-cols>div:last-child{grid-column:1/-1}.ftr-bot{justify-content:center;text-align:center}}
 
 /* ---------- Inner pages ---------- */
 .page-head{padding-block:calc(var(--hdr-h) + 70px) 56px;position:relative;overflow:hidden;background:var(--bg-2)}
@@ -603,6 +609,9 @@ dialog.lb::backdrop{background:rgba(14,20,50,.9)}
   .marq-row{animation:none!important}
 }
 </style>
+</head>
+<body>
+
 
 <a class="skip" href="#main" data-en="Skip to content">تخطي إلى المحتوى</a>
 
@@ -1593,3 +1602,6 @@ if (!loader) startHero();
 if (document.readyState === "loading") window.addEventListener("DOMContentLoaded", motion); else motion();
 })();
 </script>
+
+</body>
+</html>
