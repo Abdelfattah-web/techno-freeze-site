@@ -1,0 +1,1595 @@
+<title>Techno Freeze Consulting</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="تكنو فريز للاستشارات الهندسية — مكتب استشارات كهروميكانيكية في القاهرة منذ 2004: تصميم وإشراف على أنظمة التكييف والحريق والكهرباء والسباكة والغازات الطبية.">
+<meta name="theme-color" content="#283068">
+<meta property="og:title" content="Techno Freeze Consulting — تكنو فريز للاستشارات الهندسية">
+<meta property="og:description" content="استشارات هندسية كهروميكانيكية منذ 2004: HVAC، مكافحة الحريق، الكهرباء، السباكة والغازات الطبية.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta name="twitter:card" content="summary_large_image">
+<script>try{var L=localStorage.getItem("tf-lang")==="en"?"en":"ar";document.documentElement.lang=L;document.documentElement.dir=L==="ar"?"rtl":"ltr";}catch(e){document.documentElement.lang="ar";document.documentElement.dir="rtl";}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="preload" as="image" href="img/bus-2.webp" fetchpriority="high">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Techno Freeze Consulting","alternateName":"تكنو فريز للاستشارات الهندسية","foundingDate":"2004","slogan":"Design Better World","address":{"@type":"PostalAddress","streetAddress":"7A+8A Hassan El Mamoun St, New Nasr City","addressLocality":"Cairo","addressCountry":"EG"},"areaServed":["EG","SA","QA","LY"],"knowsAbout":["HVAC design","Fire fighting systems","Medical gases","Electrical distribution","Plumbing","Construction supervision"]}
+</script>
+<style>
+/* Layout concept: a bright drawing sheet — white paper, navy ink from the logo's Arabic wordmark,
+   blueprint hairlines, cinematic site photos in navy-tinted bands, red for actions, yellow as a highlighter. */
+:root{
+  color-scheme: light;
+  --bg:#FFFFFF;
+  --bg-2:#F2F4FA;
+  --panel:#F6F7FB;
+  --line:rgba(30,42,94,.12);
+  --line-strong:rgba(30,42,94,.26);
+  --fg:#141C42;
+  --muted:#4A5274;
+  --red:#D61F31;
+  --red-text:#C21A2B;
+  --yellow:#F2D91B;
+  --navy:#283068;
+  --navy-deep:#141C42;
+  --blueprint:#283068;
+  --font:"Cairo","Segoe UI",Tahoma,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --gutter-l:max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
+  --wrap:1280px;
+  --ease:cubic-bezier(.2,.75,.1,1);
+  --ease-io:cubic-bezier(.76,0,.24,1);
+  --hdr-h:96px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16.5px;line-height:1.95;-webkit-font-smoothing:antialiased;overflow-x:hidden;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:70;background:var(--navy-deep)}
+body.lock{overflow:hidden}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--font);font-weight:800;line-height:1.35;margin:0;text-wrap:balance;letter-spacing:-.005em}
+[lang="en"] h1,[lang="en"] h2,[lang="en"] h3{letter-spacing:-.02em;line-height:1.15}
+p{margin:0}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-left:var(--gutter-l);padding-right:var(--gutter-r)}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:fixed;top:-60px;inset-inline-start:16px;z-index:100;background:var(--navy);color:#fff;padding:10px 16px;text-decoration:none;font-weight:700;transition:top .2s}
+.skip:focus{top:calc(12px + env(safe-area-inset-top,0px))}
+.eyebrow{font-size:14px;font-weight:700;color:var(--red-text);display:inline-flex;gap:12px;align-items:center}
+.eyebrow::before{content:"";width:30px;height:2px;background:currentColor}
+#view-home{counter-reset:sec}
+#view-home>section.section{counter-increment:sec}
+#view-home>section.section .sec-tag::after{content:"SEC." counter(sec, decimal-leading-zero);font:500 11px var(--mono);letter-spacing:.14em;color:var(--muted);padding-inline-start:12px;margin-inline-start:2px;border-inline-start:1px solid var(--line-strong)}
+.section{padding-block:clamp(72px,9vw,130px)}
+.h2{font-size:clamp(30px,4.4vw,56px)}
+.lead{color:var(--muted);font-size:clamp(16.5px,1.35vw,18.5px);max-width:62ch;line-height:2}
+[lang="en"] .lead{line-height:1.8}
+
+/* ---------- Buttons with motion ---------- */
+.btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding-inline:28px;border-radius:999px;font:700 16px/1 var(--font);text-decoration:none;cursor:pointer;border:1.5px solid transparent;transition:color .45s var(--ease),border-color .45s var(--ease),transform .35s var(--ease),box-shadow .45s var(--ease)}
+.btn::before{content:"";position:absolute;inset:-2px;z-index:-1;border-radius:inherit;transform:translateY(102%);transition:transform .5s var(--ease-io)}
+.btn:hover::before,.btn:focus-visible::before{transform:none}
+.btn .ico{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;overflow:hidden;position:relative;margin-inline-end:-12px}
+.btn:hover .ico svg{animation:arrow .55s var(--ease)}
+@keyframes arrow{0%{transform:translateX(0)}49%{transform:translateX(-140%)}50%{transform:translateX(140%)}100%{transform:translateX(0)}}
+[dir="ltr"] .btn:hover .ico svg{animation-name:arrowL}
+@keyframes arrowL{0%{transform:scaleX(-1) translateX(0)}49%{transform:scaleX(-1) translateX(-140%)}50%{transform:scaleX(-1) translateX(140%)}100%{transform:scaleX(-1) translateX(0)}}
+[dir="ltr"] .flip{transform:scaleX(-1)}
+.btn-primary{background:var(--red);color:#fff;box-shadow:0 10px 24px -10px rgba(214,31,49,.6)}
+.btn-primary::before{background:var(--navy)}
+.btn-primary .ico{background:rgba(255,255,255,.18)}
+.btn-primary:hover{box-shadow:0 14px 30px -12px rgba(40,48,104,.7)}
+.btn-ghost{border-color:var(--line-strong);color:var(--fg);background:transparent}
+.btn-ghost::before{background:var(--navy)}
+.btn-ghost:hover,.btn-ghost:focus-visible{color:#fff;border-color:var(--navy)}
+.btn-ghost .ico{background:var(--bg-2)}
+.btn-ghost:hover .ico{background:rgba(255,255,255,.15)}
+.btn-light{border-color:rgba(255,255,255,.5);color:#fff;background:rgba(20,28,66,.25);backdrop-filter:blur(6px)}
+.btn-light::before{background:#fff}
+.btn-light:hover,.btn-light:focus-visible{color:var(--navy);border-color:#fff}
+.btn-light .ico{background:rgba(255,255,255,.18)}
+.ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.45);transform:scale(0);animation:ripple .7s var(--ease) forwards;pointer-events:none;z-index:2}
+@keyframes ripple{to{transform:scale(4);opacity:0}}
+.circ{width:54px;height:54px;flex:none;border-radius:50%;border:1.5px solid var(--line-strong);background:transparent;color:var(--fg);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;position:relative;overflow:hidden;isolation:isolate;transition:color .4s var(--ease),border-color .4s var(--ease),transform .35s var(--ease)}
+.circ::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--navy);transform:scale(0);transition:transform .45s var(--ease);z-index:-1}
+.circ:hover::before,.circ:focus-visible::before{transform:scale(1)}
+.circ:hover,.circ:focus-visible{color:#fff;border-color:var(--navy)}
+
+/* ---------- Loader ---------- */
+#loader{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;background:var(--bg);overflow:hidden}
+#loader .grid{position:absolute;inset:0;opacity:.07;background-image:linear-gradient(var(--blueprint) 1px,transparent 1px),linear-gradient(90deg,var(--blueprint) 1px,transparent 1px);background-size:48px 48px}
+.ld{position:relative;display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding-inline:16px}
+.ld-av{position:relative;width:170px;height:170px}
+.ld-av img{position:absolute;inset:14px;width:142px;height:142px;border-radius:50%;object-fit:cover;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(-2deg)}}
+.ld-av svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.ld-av circle{fill:none;stroke-width:4}
+.ld-av .trk{stroke:var(--line)}
+.ld-av .bar{stroke:var(--red);stroke-linecap:round;stroke-dasharray:502;stroke-dashoffset:502}
+.ld-av .tick{position:absolute;inset:-8px;border:1px dashed var(--line-strong);border-radius:50%;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ld-logo{height:76px;width:auto}
+.ld-pct{font:900 clamp(44px,8vw,72px)/1 var(--font);color:var(--navy);font-variant-numeric:tabular-nums;direction:ltr}
+.ld-pct small{font-size:.4em;color:var(--red);margin-inline-start:4px}
+.ld-msg{font-size:15px;color:var(--muted);font-weight:600}
+.ld-read{font:500 12px var(--mono);color:var(--muted);letter-spacing:.1em;direction:ltr}
+#loader .curtain{position:absolute;inset:0;background:var(--navy);transform:translateY(100%);z-index:3}
+#loader.out .curtain{animation:curt 1.1s var(--ease-io) forwards}
+@keyframes curt{0%{transform:translateY(100%)}45%{transform:translateY(0)}100%{transform:translateY(-100%)}}
+#loader.out .ld{animation:ldout .5s var(--ease-io) forwards}
+@keyframes ldout{to{opacity:0;transform:translateY(-20px) scale(.96)}}
+
+/* ---------- Header ---------- */
+.progress{position:fixed;top:env(safe-area-inset-top,0px);inset-inline:0;height:3px;z-index:61;pointer-events:none}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--red),var(--yellow));transform-origin:right;transform:scaleX(0)}
+[dir="ltr"] .progress i{transform-origin:left}
+.hdr{position:fixed;top:env(safe-area-inset-top,0px);inset-inline:0;z-index:60;color:#fff;transition:background .4s var(--ease),border-color .4s var(--ease),transform .5s var(--ease),color .4s;border-bottom:1px solid transparent}
+.hdr.solid{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-color:var(--line);color:var(--fg);box-shadow:0 8px 30px rgba(20,28,66,.07)}
+.hdr.hide{transform:translateY(-110%)}
+.logo .lg-dark{display:none}
+.hdr.solid .logo .lg-dark{display:block}
+.hdr.solid .logo .lg-light{display:none}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:var(--hdr-h)}
+.logo img{height:66px;width:auto;transition:height .4s var(--ease)}
+.hdr.solid .logo img{height:58px}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a{text-decoration:none;font-size:16px;font-weight:700;color:inherit;position:relative;padding-block:8px;display:inline-block;line-height:1.6;transition:color .3s}
+.nav a::after{content:"";position:absolute;bottom:2px;inset-inline:0;height:2px;border-radius:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+[dir="rtl"] .nav a::after{transform-origin:right}
+.hdr:not(.solid) .nav a::after{background:var(--yellow)}
+.nav a:hover,.nav a:focus-visible{color:var(--red-text)}
+.hdr:not(.solid) .nav a:hover,.hdr:not(.solid) .nav a:focus-visible{color:var(--yellow)}
+.nav a:hover::after,.nav a:focus-visible::after,.nav a[aria-current="page"]::after{transform:scaleX(1)}
+.hdr-actions{display:flex;gap:10px;align-items:center}
+.lang{min-width:50px;min-height:46px;border-radius:999px;background:none;border:1.5px solid currentColor;color:inherit;font:800 14px var(--font);cursor:pointer;transition:background .3s,color .3s}
+.hdr:not(.solid) .lang:hover{background:#fff;color:var(--navy)}
+.hdr.solid .lang:hover{background:var(--navy);color:#fff}
+.hdr .btn{min-height:46px;padding-inline:22px;font-size:15px}
+.burger{display:none;width:50px;height:46px;background:none;border:1.5px solid currentColor;border-radius:999px;color:inherit;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:6px}
+.burger i{display:block;width:20px;height:2px;background:currentColor;transition:transform .4s var(--ease)}
+.burger[aria-expanded="true"] i:first-child{transform:translateY(4px) rotate(45deg)}
+.burger[aria-expanded="true"] i:last-child{transform:translateY(-4px) rotate(-45deg)}
+.mnav{display:none}
+@media (max-width:1120px){
+  .nav,.hdr .btn-primary{display:none}
+  .burger{display:inline-flex}
+  .mnav{position:fixed;inset:0;z-index:59;background:var(--bg);display:flex;flex-direction:column;justify-content:center;gap:2px;padding:110px var(--gutter-r) 40px var(--gutter-l);clip-path:circle(0% at 50% 0%);transition:clip-path .7s var(--ease-io),visibility 0s .7s;visibility:hidden;overflow-y:auto}
+  .mnav.open{clip-path:circle(150% at 50% 0%);visibility:visible;transition:clip-path .7s var(--ease-io)}
+  .mnav a.ml{font:800 clamp(26px,7.5vw,42px)/1.6 var(--font);text-decoration:none;color:var(--fg);padding-block:4px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;opacity:0;transform:translateY(20px);transition:opacity .4s,transform .5s var(--ease),color .3s}
+  .mnav.open a.ml{opacity:1;transform:none}
+  .mnav a.ml:hover{color:var(--red-text)}
+  .mnav a.ml small{font:500 13px var(--mono);color:var(--muted)}
+  .mnav .socials{margin-top:24px}
+}
+@media (max-width:600px){.logo img,.hdr.solid .logo img{height:52px}}
+@media (max-width:380px){.logo img,.hdr.solid .logo img{height:44px}.hdr-in{gap:10px}}
+
+/* ---------- Hero slider ---------- */
+.hero{color:#fff;position:relative;min-height:clamp(620px,94svh,980px);display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;isolation:isolate;touch-action:pan-y;background:var(--navy-deep)}
+.slides{position:absolute;inset:0;z-index:-2}
+.slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 1.8s var(--ease),visibility 0s linear 1.8s}
+.slide.on{opacity:1;visibility:visible;z-index:2;transition:opacity 1.8s var(--ease),visibility 0s}
+.slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.16);filter:blur(10px) saturate(.6) brightness(.75);transition:transform 1.8s var(--ease),filter 1.6s var(--ease)}
+.slide.on img{transform:scale(1.03);filter:none;transition:transform 10s cubic-bezier(.25,.1,.25,1),filter 1.6s var(--ease)}
+.sweep{position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.22) 48%,rgba(242,217,27,.12) 52%,transparent 65%);transform:translateX(-120%);opacity:0}
+.hero.anim .sweep{animation:sweep 1.6s .15s var(--ease) both}
+@keyframes sweep{0%{transform:translateX(-120%);opacity:1}100%{transform:translateX(120%);opacity:0}}
+.hero-glow{position:absolute;width:60vw;height:60vw;max-width:820px;max-height:820px;border-radius:50%;background:radial-gradient(circle,rgba(214,31,49,.35),transparent 65%);inset-inline-start:-18vw;bottom:-30vw;z-index:-1;pointer-events:none;animation:glow 9s ease-in-out infinite alternate}
+@keyframes glow{to{transform:translate(8vw,-6vw) scale(1.15)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(20,28,66,.95) 6%,rgba(20,28,66,.55) 45%,rgba(20,28,66,.25) 72%,rgba(20,28,66,.65))}
+.hero-grid{position:absolute;inset:0;z-index:-1;opacity:.12;background-image:linear-gradient(#B9C2FF 1px,transparent 1px),linear-gradient(90deg,#B9C2FF 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(to bottom,transparent,#000 40%,transparent 92%);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 40%,transparent 92%)}
+.hero-in{width:100%;padding-block:calc(var(--hdr-h) + 60px) 40px;display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.hero-tag{font-size:14.5px;font-weight:700;color:var(--yellow);display:inline-flex;gap:12px;align-items:center}
+.hero-tag::before{content:"";width:30px;height:2px;background:currentColor}
+.hero h1{font-size:clamp(42px,7.6vw,116px);font-weight:900;line-height:1.25;max-width:13ch}
+[lang="en"] .hero h1{line-height:1;text-transform:uppercase;letter-spacing:-.03em;max-width:15ch}
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.w>span{display:inline-block}
+.hero.anim .hero-in .w>span{animation:rise 1.1s var(--ease) both;animation-delay:calc(var(--i) * 90ms + 250ms)}
+@keyframes rise{0%{transform:translateY(105%) scale(.9);filter:blur(10px);opacity:0}60%{opacity:1}100%{transform:none;filter:none;opacity:1}}
+.hero.anim .hero-tag::before{animation:line 1s .1s var(--ease) both}
+@keyframes line{from{width:0}to{width:30px}}
+.hero.anim .hero-sub,.hero.anim .hero-tag,.hero.anim .hero-ctas{animation:fadeb 1.1s var(--ease) both}
+@keyframes fadeb{from{opacity:0;transform:translateY(24px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+.hero.anim .hero-sub{animation-delay:.6s}
+.hero.anim .hero-ctas{animation-delay:.8s}
+.counter b{display:inline-block}
+.hero.anim .counter b{animation:fadeb .8s var(--ease) both}
+@keyframes fade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.hero-sub{color:#DDE1EE;font-size:clamp(16.5px,1.5vw,19.5px);max-width:58ch;line-height:2}
+[lang="en"] .hero-sub{line-height:1.75}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+.hero-bar{width:100%;border-top:1px solid rgba(255,255,255,.18);background:linear-gradient(to top,rgba(20,28,66,.6),transparent)}
+.hero-bar .wrap{display:flex;align-items:stretch;gap:18px}
+.tabs{flex:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));min-width:0}
+.tabs button{background:none;border:0;color:rgba(255,255,255,.7);text-align:start;padding-block:18px 20px;padding-inline:0 18px;cursor:pointer;position:relative;font:700 14.5px/1.6 var(--font);display:flex;gap:12px;align-items:baseline;min-width:0;transition:color .3s;min-height:56px}
+.tabs button b{font:500 12px var(--mono);color:inherit;flex:none}
+.tabs button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tabs button::before{content:"";position:absolute;top:-1px;inset-inline:0;height:2px;background:rgba(255,255,255,.18)}
+.tabs button i{position:absolute;top:-1px;inset-inline-start:0;height:2px;width:100%;background:var(--yellow);transform:scaleX(0);transform-origin:right}
+[dir="ltr"] .tabs button i{transform-origin:left}
+.tabs button[aria-selected="true"]{color:#fff}
+.tabs button[aria-selected="true"] i{transform:scaleX(1);transition:transform var(--dur,7s) linear}
+.hero.paused .tabs button[aria-selected="true"] i{transition:none}
+.tabs button:hover{color:#fff}
+.hero-ctl{display:flex;gap:10px;align-items:center;padding-block:12px}
+.hero-ctl .circ{color:#fff;border-color:rgba(255,255,255,.45);width:50px;height:50px}
+.hero-ctl .circ::before{background:#fff}
+.hero-ctl .circ:hover,.hero-ctl .circ:focus-visible{color:var(--navy);border-color:#fff}
+.counter{font:800 15px var(--font);color:rgba(255,255,255,.75);font-variant-numeric:tabular-nums;direction:ltr;min-width:64px;text-align:center}
+[dir="rtl"] .counter{direction:rtl}
+.counter b{color:#fff;font-size:26px}
+@media (max-width:760px){
+  .tabs button span{display:none}
+  .tabs button{padding-inline:0;justify-content:center}
+  .hero-ctl .circ{width:46px;height:46px}
+  .hero-in{padding-bottom:28px}
+}
+@media (max-width:420px){.counter{display:none}.hero-bar .wrap{gap:10px}}
+
+/* ---------- Marquee ---------- */
+.marq{border-bottom:1px solid var(--line);background:var(--bg);overflow:hidden;padding-block:24px}
+.marq-in{display:flex;align-items:center;gap:22px}
+.marq-l{flex:none;font-size:14px;font-weight:700;color:var(--muted);max-width:170px;line-height:1.6;padding-inline-end:22px;border-inline-end:1px solid var(--line)}
+.marq-track{flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.marq-row{display:flex;width:max-content;animation:marq 38s linear infinite;direction:ltr}
+.marq-track:hover .marq-row,.marq-track:focus-within .marq-row{animation-play-state:paused}
+@keyframes marq{to{transform:translateX(-50%)}}
+.marq-row span{font:800 clamp(18px,2vw,24px)/1.4 var(--font);color:var(--navy);padding-inline:28px;white-space:nowrap;display:inline-flex;align-items:center;gap:28px}
+.marq-row span::after{content:"";width:8px;height:8px;background:var(--yellow);transform:rotate(45deg)}
+@media (max-width:620px){.marq-l{display:none}}
+
+/* ---------- Intro + stats ---------- */
+.intro{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.intro-copy{display:flex;flex-direction:column;gap:24px;min-width:0}
+.intro-media{position:relative;aspect-ratio:4/5;width:100%;max-width:100%}
+.intro-media .a{position:absolute;inset:0 18% 14% 0;overflow:hidden;border-radius:6px}
+.intro-media .b{position:absolute;inset:46% 0 0 34%;overflow:hidden;border:10px solid var(--bg);border-radius:6px;box-shadow:0 30px 60px -20px rgba(20,28,66,.35)}
+.intro-media img{width:100%;height:118%;object-fit:cover}
+.dim{position:absolute;inset-inline-start:-6px;top:0;bottom:14%;width:1px;background:var(--red)}
+.dim::before,.dim::after{content:"";position:absolute;left:-5px;width:11px;height:1px;background:var(--red)}
+.dim::before{top:0}.dim::after{bottom:0}
+.dim span{position:absolute;top:50%;inset-inline-start:10px;font:500 11px var(--mono);color:var(--red-text);writing-mode:vertical-rl;letter-spacing:.12em}
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:8px}
+.pillars div{background:var(--bg-2);padding:18px;border-radius:6px;transition:transform .4s var(--ease),background .4s}
+.pillars div:hover{transform:translateY(-4px);background:#E8EBF6}
+.pillars b{display:block;font-weight:800;font-size:17px;line-height:1.6}
+.pillars span{font-size:14px;color:var(--muted);line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:clamp(56px,8vw,100px)}
+.stat{position:relative;padding:28px 26px 26px;background:var(--bg-2);border-radius:12px;display:flex;flex-direction:column;justify-content:flex-start;gap:12px;min-height:170px;overflow:hidden;transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.stat::after{content:"";position:absolute;inset-inline-start:26px;top:0;width:36px;height:3px;background:var(--red);border-radius:0 0 3px 3px}
+.stat:hover{transform:translateY(-4px);box-shadow:0 24px 40px -26px rgba(20,28,66,.45)}
+.stat b{display:flex;align-items:flex-start;gap:2px;font:900 clamp(42px,4.4vw,62px)/1.15 var(--font);color:var(--navy);font-variant-numeric:tabular-nums}
+.stat b sup{color:var(--red);font-size:.5em;line-height:1;margin-top:.15em}
+.stat>span{color:var(--muted);font-size:15px;font-weight:600;line-height:1.7;max-width:22ch}
+
+.collage{position:relative;display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:1fr 1fr;gap:14px;aspect-ratio:1/1.02;width:100%}
+.cl{position:relative;margin:0;overflow:hidden;border-radius:10px;background:var(--panel);box-shadow:0 30px 60px -30px rgba(20,28,66,.45)}
+.cl-a{grid-row:1/3}
+.cl img{width:100%;height:118%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.cl:hover img{transform:scale(1.07)}
+.cl figcaption{position:absolute;top:12px;inset-inline-start:12px;z-index:3;background:rgba(255,255,255,.96);color:var(--fg);font-size:13px;font-weight:700;padding:3px 12px;border-radius:999px;box-shadow:0 6px 16px -6px rgba(20,28,66,.35);transform:translateY(-8px);opacity:0;transition:transform .4s var(--ease),opacity .4s}
+.cl:hover figcaption{transform:none;opacity:1}
+@media (hover:none){.cl figcaption{transform:none;opacity:1}}
+.seal{position:absolute;width:150px;height:150px;top:50%;left:50%;margin:-75px 0 0 -75px;border-radius:50%;background:var(--navy);color:#fff;box-shadow:0 0 0 10px var(--bg),0 24px 40px -12px rgba(20,28,66,.5);z-index:2}
+.seal svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite;fill:#C9CEE6;font:600 12.5px var(--mono);letter-spacing:.18em}
+.seal-in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+.seal-n{font:900 44px/1 var(--font);color:var(--yellow)}
+.seal-in span{font-size:13px;font-weight:700;margin-top:4px}
+.collage .dim{inset-inline-start:-14px;bottom:0}
+@media (max-width:900px){.collage{max-width:560px}}
+@media (max-width:480px){.seal{width:118px;height:118px;margin:-59px 0 0 -59px}.seal-n{font-size:34px}.seal svg{font-size:11px}}
+@media (max-width:900px){.intro{grid-template-columns:1fr}.intro-media{max-width:520px}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stat{min-height:150px;padding:24px 20px 22px}.stat::after{inset-inline-start:20px}}
+@media (max-width:520px){.pillars{grid-template-columns:1fr}}
+
+/* ---------- Services ---------- */
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:clamp(36px,5vw,64px)}
+.sec-head>div{display:flex;flex-direction:column;gap:16px;max-width:760px;min-width:0}
+.svc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.svc-card{position:relative;padding:28px 24px 30px;border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;gap:16px;min-height:0;overflow:hidden;isolation:isolate;background:var(--bg);transition:transform .5s var(--ease),box-shadow .5s var(--ease),border-color .5s,color .4s}
+.svc-card:hover,.svc-card:focus-within,.svc-card:focus-visible{transform:translateY(-8px);box-shadow:0 30px 60px -28px rgba(20,28,66,.45);border-color:transparent;color:#fff}
+.svc-card .bgimg{position:absolute;inset:0;z-index:-1;clip-path:inset(100% 0 0 0);transition:clip-path .8s var(--ease-io)}
+.svc-card .bgimg img{width:100%;height:100%;object-fit:cover;transform:scale(1.15);transition:transform 1.4s var(--ease)}
+.svc-card .bgimg::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,28,66,.97) 40%,rgba(20,28,66,.72))}
+.svc-card:hover .bgimg,.svc-card:focus-visible .bgimg{clip-path:inset(0)}
+.svc-card:hover .bgimg img{transform:scale(1)}
+.svc-card:hover ul,.svc-card:focus-visible ul{color:#D5D9EA}
+.svc-card:hover .svc-ico,.svc-card:focus-visible .svc-ico{color:var(--yellow)}
+.svc-card:hover .svc-num,.svc-card:focus-visible .svc-num{color:#C9CEE6}
+.svc-num{font-size:14px;font-weight:700;color:var(--muted);transition:color .4s}
+[lang="en"] .svc-num{font:500 12.5px var(--mono);letter-spacing:.1em}
+.svc-ico{width:58px;height:58px;color:var(--navy);transition:color .4s}
+.svc-ico *{stroke-dasharray:140;stroke-dashoffset:0}
+.svc-card:hover .svc-ico *{animation:draw 1.1s var(--ease)}
+@keyframes draw{from{stroke-dashoffset:140}to{stroke-dashoffset:0}}
+.svc-card .svc-ico{margin-block:6px 10px}
+.svc-card h3{font-size:21px;line-height:1.5;min-height:2.6em;display:flex;align-items:flex-end}
+.svc-card ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;color:var(--muted);font-size:15px;line-height:1.75;transition:color .4s}
+.svc-card li{display:flex;gap:10px}
+.svc-card li::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;background:var(--red);margin-top:.75em}
+@media (max-width:1060px){.svc{grid-template-columns:repeat(2,minmax(0,1fr))}.svc-card{min-height:380px}}
+@media (max-width:620px){.svc{grid-template-columns:1fr}.svc-card{min-height:0}.svc-card h3{min-height:0}}
+.spec{margin-top:clamp(40px,6vw,72px);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.spec ul{display:contents;list-style:none;margin:0;padding:0}
+.spec-h{grid-column:span 2;padding:24px 26px;background:var(--navy);color:#fff;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative;overflow:hidden}
+.spec-h::after{content:"";position:absolute;inset:0;opacity:.12;background-image:linear-gradient(#B9C2FF 1px,transparent 1px),linear-gradient(90deg,#B9C2FF 1px,transparent 1px);background-size:20px 20px;pointer-events:none}
+.spec-h span{color:#C9CEE6;font-size:14.5px;line-height:1.8}
+.spec li{background:var(--bg);padding:18px 20px;display:flex;flex-direction:column;gap:4px;justify-content:center;min-height:92px;font-size:15.5px;font-weight:700;line-height:1.55;transition:background .3s,color .3s}
+.spec li:hover{background:var(--bg-2);color:var(--red-text)}
+.spec li code{font:500 11.5px var(--mono);color:var(--red-text);letter-spacing:.08em}
+@media (max-width:1100px){.spec{grid-template-columns:repeat(4,minmax(0,1fr))}.spec-h{grid-column:span 3}}
+@media (max-width:760px){.spec{grid-template-columns:repeat(2,minmax(0,1fr))}.spec-h{grid-column:1/-1}.spec li{min-height:84px;padding:14px 16px}}
+
+/* ---------- Project cards ---------- */
+.rail{--edge:max(16px, calc((100vw - var(--wrap)) / 2 + 16px));display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:20px;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain;padding-inline:var(--edge);scroll-padding-inline:var(--edge)}
+.rail::-webkit-scrollbar{display:none}
+.rail.dragging{cursor:grabbing;scroll-snap-type:none}
+.rail.dragging a{pointer-events:none}
+.rail>.pcard{flex:0 0 clamp(270px,30vw,400px);scroll-snap-align:start}
+.rail-foot{display:flex;align-items:center;gap:12px;margin-top:14px}
+.rail-meter{flex:1;height:2px;background:var(--line);position:relative;overflow:hidden;margin-inline-end:12px}
+.rail-meter i{position:absolute;inset-block:0;inset-inline-start:0;width:30%;background:var(--navy)}
+.pcard{display:flex;flex-direction:column;gap:14px;text-decoration:none;color:inherit;min-width:0}
+.pcard .ph{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--panel);border-radius:8px}
+.pcard .ph img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);transition:transform 1.2s var(--ease)}
+.pcard .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,28,66,.55),transparent 50%);opacity:0;transition:opacity .5s}
+.pcard:hover .ph img,.pcard:focus-visible .ph img{transform:scale(1.1)}
+.pcard:hover .ph::after,.pcard:focus-visible .ph::after{opacity:1}
+.pcard .view{position:absolute;bottom:16px;inset-inline-end:16px;z-index:2;width:56px;height:56px;border-radius:50%;background:var(--yellow);color:var(--navy);display:flex;align-items:center;justify-content:center;transform:scale(0) rotate(-45deg);transition:transform .5s var(--ease)}
+.pcard:hover .view,.pcard:focus-visible .view{transform:none}
+@media (hover:none){.pcard .view{transform:scale(.8)}}
+.pcard .tag{position:absolute;top:14px;inset-inline-start:14px;z-index:2;font-size:13px;font-weight:700;background:#fff;padding:3px 12px;color:var(--fg);border-radius:999px}
+.pcard .meta{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.pcard h3{font-size:clamp(19px,1.8vw,23px);line-height:1.6}
+.pcard h3 span{background:linear-gradient(currentColor,currentColor) no-repeat right bottom/0 2px;transition:background-size .5s var(--ease),color .3s}
+[dir="ltr"] .pcard h3 span{background-position:left bottom}
+.pcard:hover h3 span,.pcard:focus-visible h3 span{color:var(--red-text);background-size:100% 2px}
+.pcard .loc{font-size:14.5px;color:var(--muted)}
+.pcard .yr{font:500 13px var(--mono);color:var(--muted);flex:none}
+
+/* ---------- Timeline ---------- */
+.tl{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 24px}
+.tl::before{content:"";position:absolute;top:13px;inset-inline:0;height:2px;background:var(--line)}
+.tl-line{position:absolute;top:13px;inset-inline:0;height:2px;background:var(--red);transform-origin:right}
+[dir="ltr"] .tl-line{transform-origin:left}
+.tl-i{position:relative;padding-top:44px;display:flex;flex-direction:column;gap:6px}
+.tl-i::before{content:"";position:absolute;top:6px;inset-inline-start:0;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--red);transition:transform .4s var(--ease),background .4s}
+.tl-i:hover::before{transform:scale(1.35);background:var(--yellow)}
+.tl-i b{font:900 clamp(32px,3.4vw,44px)/1.2 var(--font);color:var(--navy);font-variant-numeric:tabular-nums}
+.tl-i h3{font-size:18px;line-height:1.6}
+.tl-i p{color:var(--muted);font-size:15px;line-height:1.85}
+@media (max-width:900px){.tl{grid-template-columns:repeat(2,minmax(0,1fr))}.tl::before,.tl-line{display:none}.tl-i{border-top:2px solid var(--line);padding-top:30px}.tl-i::before{top:-9px}}
+@media (max-width:520px){.tl{grid-template-columns:1fr}}
+
+/* ---------- Engineer ---------- */
+.eng{position:relative;overflow:hidden;background:var(--bg-2)}
+.eng-grid{position:absolute;inset:0;opacity:.09;background-image:linear-gradient(var(--blueprint) 1px,transparent 1px),linear-gradient(90deg,var(--blueprint) 1px,transparent 1px),linear-gradient(rgba(40,48,104,.45) 1px,transparent 1px),linear-gradient(90deg,rgba(40,48,104,.45) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px}
+.eng-in{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,6vw,96px);align-items:center}
+.eng-fig{position:relative;max-width:500px;width:100%;margin-inline:auto}
+.eng-fig .card{position:relative;aspect-ratio:1/1;border:1px solid var(--line-strong);padding:10px;background:var(--bg);box-shadow:0 30px 60px rgba(20,28,66,.14);border-radius:8px;overflow:hidden}
+.eng-fig .card img{width:100%;height:100%;object-fit:cover;border-radius:4px}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.callout{position:absolute;font:500 11.5px var(--mono);letter-spacing:.05em;color:var(--fg);background:var(--bg);border:1px solid var(--line-strong);padding:7px 11px;white-space:nowrap;display:flex;gap:8px;align-items:center;border-radius:999px;box-shadow:0 10px 24px -12px rgba(20,28,66,.3);direction:ltr}
+.callout i{width:8px;height:8px;border-radius:50%;background:var(--red);flex:none;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(214,31,49,.5)}100%{box-shadow:0 0 0 10px rgba(214,31,49,0)}}
+.c1{top:36%;inset-inline-end:-8%}
+.c2{top:7%;inset-inline-start:-8%}
+.c3{bottom:10%;inset-inline-end:-5%}
+.eng svg.lines{position:absolute;inset:-30px;width:calc(100% + 60px);height:calc(100% + 60px);pointer-events:none;overflow:visible}
+.eng svg.lines line,.eng svg.lines path{stroke:var(--blueprint);stroke-width:1;fill:none;opacity:.45}
+.eng-copy{display:flex;flex-direction:column;gap:22px;min-width:0}
+.quote{font-size:clamp(20px,2.2vw,27px);line-height:1.85;font-weight:700;border-inline-start:3px solid var(--red);padding-inline-start:20px}
+@media (max-width:900px){.eng-in{grid-template-columns:1fr}.c1{inset-inline-end:-2%}.c2{inset-inline-start:-2%}.c3{inset-inline-end:-2%}}
+@media (max-width:420px){.callout{font-size:10px;padding:5px 8px}.eng svg.lines{display:none}}
+
+/* ---------- Team ---------- */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(40px,6vw,96px)}
+.about-l{display:flex;flex-direction:column;gap:22px;min-width:0}
+.team{display:flex;flex-direction:column;gap:14px}
+.member{display:grid;grid-template-columns:68px minmax(0,1fr);gap:20px;padding:22px;border:1px solid var(--line);border-radius:8px;transition:border-color .4s,transform .4s var(--ease),box-shadow .4s}
+.member:hover{border-color:var(--navy);transform:translateX(-6px);box-shadow:0 20px 40px -24px rgba(20,28,66,.4)}
+[dir="ltr"] .member:hover{transform:translateX(6px)}
+.mono{width:68px;height:68px;background:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 22px var(--font);color:var(--yellow)}
+.member h3{font-size:19px;line-height:1.6}
+.member .role{color:var(--red-text);font-size:14.5px;font-weight:700}
+.member p{color:var(--muted);font-size:15px;margin-top:6px;line-height:1.85}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges span{border:1px solid var(--line-strong);background:var(--bg-2);padding:5px 14px;font-size:14px;font-weight:600;border-radius:999px}
+@media (max-width:900px){.about{grid-template-columns:1fr}}
+@media (max-width:420px){.member{grid-template-columns:1fr;gap:12px}}
+
+/* ---------- Insights ---------- */
+.ins{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.icard{display:flex;flex-direction:column;gap:12px;text-decoration:none;color:inherit;min-width:0;background:var(--bg);border-radius:8px;padding:12px 12px 22px;transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.icard:hover,.icard:focus-visible{transform:translateY(-6px);box-shadow:0 30px 50px -30px rgba(20,28,66,.45)}
+.icard .ph{position:relative;aspect-ratio:16/10;overflow:hidden;border-radius:6px;background:var(--panel)}
+.icard .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.icard:hover .ph img{transform:scale(1.08)}
+.icard .cat{position:absolute;bottom:12px;inset-inline-start:12px;background:var(--yellow);color:var(--navy);font-size:13px;font-weight:800;padding:2px 12px;border-radius:999px}
+.icard .im,.icard h3,.icard p,.icard .more{padding-inline:8px}
+.icard .im{color:var(--muted);font-size:14px;font-weight:600}
+.icard h3{font-size:20px;line-height:1.65;transition:color .3s}
+.icard:hover h3{color:var(--red-text)}
+.icard p{color:var(--muted);font-size:15.5px;line-height:1.9}
+.icard .more{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:15px;color:var(--navy);margin-top:auto}
+.icard .more svg{transition:transform .4s var(--ease)}
+.icard:hover .more svg{transform:translateX(-6px)}
+[dir="ltr"] .icard:hover .more svg{transform:scaleX(-1) translateX(-6px)}
+@media (max-width:980px){.ins{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.ins{grid-template-columns:1fr}}
+.article{max-width:760px;margin-inline:auto;padding-block:40px 90px;display:flex;flex-direction:column;gap:22px}
+.article p{font-size:18px;line-height:2.05;color:#2B335A}
+[lang="en"] .article p{line-height:1.85}
+
+/* ---------- CTA band ---------- */
+.cta{position:relative;overflow:hidden;background:var(--navy);color:#fff;border-radius:14px;padding:clamp(32px,5vw,72px);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:center;isolation:isolate}
+.cta::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.13;background-image:linear-gradient(#B9C2FF 1px,transparent 1px),linear-gradient(90deg,#B9C2FF 1px,transparent 1px);background-size:40px 40px}
+.cta .blob{position:absolute;width:420px;height:420px;border-radius:50%;background:var(--red);filter:blur(90px);opacity:.35;inset-inline-end:-120px;top:-160px;z-index:-1;animation:drift 12s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(-80px,80px)}}
+.cta h2{font-size:clamp(26px,3.6vw,46px);color:#fff}
+.cta p{color:#D5D9EA;font-size:17px;margin-top:10px;line-height:1.9}
+.cta-face{width:110px;height:110px;border-radius:50%;object-fit:cover;border:4px solid var(--yellow)}
+.cta-r{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+@media (max-width:820px){.cta{grid-template-columns:1fr}.cta-face{display:none}}
+
+/* ---------- Contact ---------- */
+.contact{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(40px,6vw,96px)}
+.contact-l{display:flex;flex-direction:column;gap:24px;min-width:0}
+.info{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.info div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;padding-block:14px;border-bottom:1px solid var(--line);font-size:15.5px;line-height:1.8}
+.info .k{font-size:14px;font-weight:700;color:var(--muted)}
+.info .v{word-break:break-word;font-weight:600}
+form.consult{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 20px;background:var(--panel);padding:clamp(20px,3vw,40px);border:1px solid var(--line);border-radius:10px;min-width:0}
+.f{display:flex;flex-direction:column;gap:6px;min-width:0}
+.f.full{grid-column:1/-1}
+.f label{font-size:14.5px;font-weight:700}
+.f label em{color:var(--red-text);font-style:normal}
+.f input,.f select,.f textarea{font:500 16px var(--font);color:var(--fg);background:var(--bg);border:1.5px solid var(--line-strong);border-radius:8px;padding:10px 14px;min-height:52px;width:100%;transition:border-color .3s,box-shadow .3s}
+.f textarea{min-height:130px;resize:vertical;line-height:1.8}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 4px rgba(40,48,104,.14)}
+.f .err{color:var(--red-text);font-size:13.5px;font-weight:600;line-height:1.5}
+.f.bad input,.f.bad select,.f.bad textarea{border-color:var(--red-text)}
+.f.bad{animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.check{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:var(--muted);line-height:1.8}
+.check input{width:22px;height:22px;margin-top:4px;accent-color:var(--red);flex:none}
+.hp{position:absolute!important;inset-inline-start:-9999px;width:1px;height:1px;overflow:hidden}
+.form-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.form-foot small{color:var(--muted);font-size:13.5px;max-width:44ch;line-height:1.7}
+.result{grid-column:1/-1;border:1px solid var(--navy);background:var(--bg);border-inline-start:5px solid var(--yellow);padding:22px;display:flex;flex-direction:column;gap:14px;border-radius:8px;animation:fade .6s var(--ease)}
+.result b{font-size:19px;font-weight:800}
+.result p{color:var(--muted);font-size:15px}
+.result .row{display:flex;flex-wrap:wrap;gap:10px}
+.result textarea{font:13px/1.7 var(--mono);background:var(--bg-2);color:var(--fg);border:1px solid var(--line);padding:12px;width:100%;border-radius:6px}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+@media (max-width:560px){form.consult{grid-template-columns:1fr}.info div{grid-template-columns:90px minmax(0,1fr)}}
+
+/* ---------- Socials ---------- */
+.socials{display:flex;gap:10px;flex-wrap:wrap}
+.socials a{width:46px;height:46px;border-radius:50%;border:1.5px solid currentColor;display:inline-flex;align-items:center;justify-content:center;position:relative;overflow:hidden;isolation:isolate;transition:color .35s,border-color .35s,transform .35s var(--ease)}
+.socials a::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--yellow);transform:translateY(100%);transition:transform .4s var(--ease);z-index:-1}
+.socials a:hover,.socials a:focus-visible{color:var(--navy);border-color:var(--yellow);transform:translateY(-3px)}
+.socials a:hover::before,.socials a:focus-visible::before{transform:none}
+.socials a svg{width:20px;height:20px}
+
+/* ---------- Footer ---------- */
+.ftr{background:var(--navy-deep);color:#fff;padding-block:72px 28px;position:relative;overflow:hidden}
+.ftr-cols{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:40px}
+.ftr-cols h2{font-size:16px;color:var(--yellow);margin-bottom:12px}
+.ftr-cols ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.ftr-cols a{text-decoration:none;color:#D5D9EA;font-size:15px;transition:color .3s,transform .3s var(--ease);display:inline-block;line-height:2}
+.ftr-cols ul a:hover{color:#fff;transform:translateX(-4px)}
+.ftr-cols .socials a{display:inline-flex;line-height:1;color:#fff}
+.ftr-cols .socials a:hover{color:var(--navy)}
+[dir="ltr"] .ftr-cols ul a:hover{transform:translateX(4px)}
+.ftr-about{display:flex;flex-direction:column;gap:18px}
+.ftr-about p{color:#C9CEE6;font-size:15px;line-height:1.9;max-width:40ch}
+.ftr-about img{height:76px;width:auto;align-self:flex-start}
+.ftr-big{font:900 clamp(38px,9.4vw,148px)/1.1 var(--font);letter-spacing:-.02em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.22);white-space:nowrap;overflow:hidden;direction:ltr;text-align:center;margin-top:56px;user-select:none}
+.ftr-bot{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.14);padding-top:22px;margin-top:10px;color:#C9CEE6;font-size:14px}
+.ftr .circ{color:#fff;border-color:rgba(255,255,255,.4)}
+.ftr .circ::before{background:var(--yellow)}
+.ftr .circ:hover,.ftr .circ:focus-visible{color:var(--navy);border-color:var(--yellow)}
+@media (max-width:900px){.ftr-cols{grid-template-columns:repeat(2,minmax(0,1fr))}.ftr-about{grid-column:1/-1}}
+@media (max-width:480px){.ftr-cols{grid-template-columns:1fr}}
+
+/* ---------- Inner pages ---------- */
+.page-head{padding-block:calc(var(--hdr-h) + 70px) 56px;position:relative;overflow:hidden;background:var(--bg-2)}
+.page-head .pg-grid{position:absolute;inset:0;opacity:.08;background-image:linear-gradient(var(--blueprint) 1px,transparent 1px),linear-gradient(90deg,var(--blueprint) 1px,transparent 1px);background-size:64px 64px}
+.page-head .wrap{position:relative}
+.page-head .h1{font-size:clamp(38px,7vw,96px);font-weight:900;margin-top:14px;line-height:1.25;animation:fade .9s var(--ease) both}
+.crumbs{font-size:14px;font-weight:600;color:var(--muted)}
+.crumbs a{text-decoration:none}
+.crumbs a:hover{color:var(--red-text)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding-block:30px}
+.filters button{font:700 15px var(--font);color:var(--fg);background:var(--bg);border:1.5px solid var(--line-strong);padding:6px 18px;min-height:46px;cursor:pointer;border-radius:999px;display:inline-flex;gap:8px;align-items:center;transition:background .3s,color .3s,border-color .3s,transform .3s var(--ease)}
+.filters button:hover{border-color:var(--navy);transform:translateY(-2px)}
+.filters button sup{font:500 11px var(--mono);color:var(--muted)}
+.filters button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.filters button[aria-pressed="true"] sup{color:var(--yellow)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 24px;padding-bottom:80px}
+.grid .pcard.in{animation:fade .7s var(--ease) both}
+@media (max-width:980px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+.index{border-top:1px solid var(--line);padding-block:56px 100px}
+.index h2{font-size:clamp(24px,2.6vw,34px);margin-bottom:24px}
+.tbl{overflow-x:auto}
+.tbl table{width:100%;border-collapse:collapse;min-width:640px;font-size:15.5px}
+.tbl th{font-size:13.5px;font-weight:700;color:var(--muted);text-align:start;padding:12px 14px;border-bottom:2px solid var(--line-strong)}
+.tbl td{padding:14px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.7}
+.tbl tbody tr{transition:background .3s}
+.tbl tbody tr:hover{background:var(--bg-2)}
+.tbl td:first-child{font-weight:700}
+.tbl td.y{font-family:var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.pd-hero{color:#fff;position:relative;min-height:clamp(460px,72svh,740px);display:flex;align-items:flex-end;isolation:isolate;overflow:hidden;background:var(--navy-deep)}
+.pd-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;animation:zoomout 1.6s var(--ease) both}
+@keyframes zoomout{from{transform:scale(1.15);clip-path:inset(10% 10% 10% 10% round 12px)}to{transform:none;clip-path:inset(0)}}
+.pd-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(20,28,66,.93) 8%,rgba(20,28,66,.2) 60%,rgba(20,28,66,.6))}
+.pd-hero .wrap{width:100%;padding-block:130px 48px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.pd-hero h1{font-size:clamp(34px,6vw,84px);font-weight:900;animation:fade 1s .3s var(--ease) both}
+.pd-hero .eyebrow{color:var(--yellow)}
+.pd-hero .crumbs{color:rgba(255,255,255,.85)}
+.pd-hero .crumbs a:hover{color:var(--yellow)}
+.pd-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border-bottom:1px solid var(--line)}
+.pd-meta div{padding:20px;border-inline-start:1px solid var(--line);display:flex;flex-direction:column;gap:2px;min-width:0}
+.pd-meta div:first-child{border-inline-start:0;padding-inline-start:0}
+.pd-meta span{font-size:13.5px;font-weight:700;color:var(--muted)}
+.pd-meta b{font-weight:700;font-size:16.5px;line-height:1.6}
+.pd-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:clamp(32px,5vw,80px);padding-block:56px}
+.pd-body p{color:var(--muted);font-size:17px}
+.gal{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.gal button{padding:0;border:0;background:var(--panel);cursor:zoom-in;overflow:hidden;aspect-ratio:3/2;border-radius:8px}
+.gal button:first-child:nth-last-child(odd){grid-column:1/-1;aspect-ratio:16/8}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+.gal button:hover img{transform:scale(1.06)}
+.pd-next{border-top:1px solid var(--line);padding-block:48px 90px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px}
+.pd-next a.big{font:800 clamp(24px,3.2vw,42px)/1.5 var(--font);text-decoration:none;transition:color .3s}
+.pd-next a.big:hover{color:var(--red-text)}
+@media (max-width:820px){.pd-body{grid-template-columns:1fr}.gal{grid-template-columns:1fr}.gal button:first-child:nth-last-child(odd){aspect-ratio:3/2}.pd-meta div{border-inline-start:0;padding-inline:0;border-bottom:1px solid var(--line)}}
+
+/* ---------- Lightbox ---------- */
+dialog.lb{border:0;padding:0;background:rgba(14,20,50,.97);color:#fff;max-width:100vw;max-height:100vh;width:100vw;height:100vh;margin:0}
+dialog.lb::backdrop{background:rgba(14,20,50,.9)}
+.lb-in{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:76px max(16px,env(safe-area-inset-right,0px)) 76px max(16px,env(safe-area-inset-left,0px))}
+.lb-in img{max-height:100%;max-width:100%;object-fit:contain;border-radius:6px;animation:fade .45s var(--ease)}
+.lb .circ{position:absolute;color:#fff;border-color:rgba(255,255,255,.45);background:rgba(14,20,50,.5)}
+.lb .circ::before{background:#fff}
+.lb .circ:hover,.lb .circ:focus-visible{color:var(--navy)}
+.lb-x{top:calc(16px + env(safe-area-inset-top,0px));inset-inline-end:16px}
+.lb-p{inset-inline-start:16px;top:50%;margin-top:-27px}
+.lb-n{inset-inline-end:16px;top:50%;margin-top:-27px}
+.lb-c{position:absolute;bottom:calc(22px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font:500 13px var(--mono);color:rgba(255,255,255,.8)}
+
+/* ---------- Engineer assistant ---------- */
+.asst{position:fixed;z-index:55;bottom:calc(20px + env(safe-area-inset-bottom,0px));inset-inline-end:max(20px, env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+[dir="rtl"] .asst{inset-inline-end:max(20px, env(safe-area-inset-left,0px))}
+.asst-btn{width:70px;height:70px;border-radius:50%;padding:0;border:3px solid var(--yellow);overflow:visible;cursor:pointer;background:var(--navy);box-shadow:0 14px 30px rgba(20,28,66,.32);position:relative;transition:transform .4s var(--ease)}
+.asst-btn:hover{transform:translateY(-4px) rotate(-4deg)}
+.asst-btn img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.asst-btn .ping{position:absolute;z-index:2;top:-3px;inset-inline-end:-1px;width:13px;height:13px;border-radius:50%;background:var(--red);border:2px solid #fff;animation:pulse 2s infinite}
+.asst-hint{position:absolute;bottom:16px;inset-inline-end:84px;background:var(--bg);color:var(--fg);font-size:14px;font-weight:700;padding:6px 14px;border-radius:999px;white-space:nowrap;box-shadow:0 10px 30px rgba(20,28,66,.18);animation:hint .6s 5s var(--ease) both;pointer-events:none}
+@keyframes hint{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.asst-panel{width:min(340px,calc(100vw - 40px));background:var(--bg);border:1px solid var(--line-strong);box-shadow:0 30px 60px rgba(20,28,66,.22);border-radius:12px;overflow:hidden;transform-origin:bottom right;animation:pop .4s var(--ease)}
+[dir="rtl"] .asst-panel{transform-origin:bottom left}
+@keyframes pop{from{opacity:0;transform:translateY(12px) scale(.95)}to{opacity:1;transform:none}}
+.asst-top{display:flex;gap:12px;align-items:center;padding:16px;background:var(--navy);color:#fff}
+.asst-top img{width:50px;height:50px;border-radius:50%;object-fit:cover;border:2px solid var(--yellow)}
+.asst-top b{display:block;font-size:16px;font-weight:800;line-height:1.5}
+.asst-top span{font-size:13.5px;color:#C9CEE6}
+.asst-panel ul{list-style:none;margin:0;padding:8px}
+.asst-panel li a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 12px;min-height:50px;text-decoration:none;font-size:15.5px;font-weight:600;border-radius:8px;transition:background .3s,color .3s,padding .3s}
+.asst-panel li a:hover,.asst-panel li a:focus-visible{background:var(--bg-2);color:var(--red-text);padding-inline-start:18px}
+.asst-panel .note{padding:0 16px 14px;font-size:12.5px;color:var(--muted)}
+@media (max-width:600px){.asst-btn{width:60px;height:60px}.asst-hint{display:none}}
+.asst{transition:transform .6s var(--ease),opacity .4s}
+.totop{position:fixed;z-index:55;bottom:calc(24px + env(safe-area-inset-bottom,0px));inset-inline-start:max(20px, env(safe-area-inset-left,0px));width:58px;height:58px;border-radius:50%;border:0;background:var(--navy);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px rgba(20,28,66,.3);opacity:0;transform:translateY(30px) scale(.8);pointer-events:none;transition:opacity .4s,transform .5s var(--ease),background .3s}
+[dir="rtl"] .totop{inset-inline-start:max(20px, env(safe-area-inset-right,0px))}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.totop:hover{background:var(--red)}
+.totop:hover svg:last-child{animation:up .6s var(--ease)}
+@keyframes up{0%{transform:none}49%{transform:translateY(-140%)}50%{transform:translateY(140%)}100%{transform:none}}
+.totop .ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.totop .ring circle{fill:none;stroke:rgba(255,255,255,.18);stroke-width:3}
+.totop .ring .rp{stroke:var(--yellow);stroke-linecap:round;stroke-dasharray:157;stroke-dashoffset:157}
+@media (max-width:600px){.totop{width:50px;height:50px}}
+.asst.away{transform:translateY(160%);opacity:0;pointer-events:none}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .marq-row{animation:none!important}
+}
+</style>
+
+<a class="skip" href="#main" data-en="Skip to content">تخطي إلى المحتوى</a>
+
+<div id="loader" role="status" aria-label="جاري التحميل" data-en-label="Loading">
+  <div class="grid" aria-hidden="true"></div>
+  <div class="ld" aria-hidden="true">
+    <div class="ld-av">
+      <span class="tick"></span>
+      <svg viewBox="0 0 170 170"><circle class="trk" cx="85" cy="85" r="80"/><circle class="bar" id="ld-bar" cx="85" cy="85" r="80"/></svg>
+      <img src="img/engineer-face.webp" alt="" width="200" height="200">
+    </div>
+    <img class="ld-logo" src="img/logo.png" alt="" width="300" height="95">
+    <div class="ld-pct"><span id="ld-n">0</span><small>%</small></div>
+    <div class="ld-msg" data-en="Checking the site readings…">بنراجع قراءات الموقع…</div>
+    <div class="ld-read" id="ld-read">SUPPLY 24.0 °C · RETURN 24.0 °C</div>
+  </div>
+  <div class="curtain" aria-hidden="true"></div>
+</div>
+
+<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#top" aria-label="تكنو فريز — الرئيسية" data-en-label="Techno Freeze — Home"><img class="lg-light" src="img/logo-light.png" alt="" width="300" height="95"><img class="lg-dark" src="img/logo.png" alt="" width="300" height="95"></a>
+    <nav class="nav" aria-label="القائمة الرئيسية" data-en-label="Main menu">
+      <a href="#about" data-nav="about"><span data-t="من نحن" data-t-en="About" data-en="About">من نحن</span></a>
+      <a href="#services" data-nav="services"><span data-t="خدماتنا" data-t-en="Services" data-en="Services">خدماتنا</span></a>
+      <a href="#projects" data-nav="projects"><span data-t="المشاريع" data-t-en="Projects" data-en="Projects">المشاريع</span></a>
+      <a href="#team" data-nav="team"><span data-t="فريق العمل" data-t-en="Team" data-en="Team">فريق العمل</span></a>
+      <a href="#insights" data-nav="insights"><span data-t="مقالات" data-t-en="Insights" data-en="Insights">مقالات</span></a>
+      <a href="#contact" data-nav="contact"><span data-t="تواصل معنا" data-t-en="Contact" data-en="Contact">تواصل معنا</span></a>
+    </nav>
+    <div class="hdr-actions">
+      <button class="lang" id="lang" type="button" aria-label="Switch to English" data-en-label="التبديل إلى العربية" lang="en">EN</button>
+      <a class="btn btn-primary mag" href="#consult-form"><span data-en="Book a consultation">احجز استشارة</span></a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="القائمة" data-en-label="Menu"><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+<nav class="mnav" id="mnav" aria-label="قائمة الموبايل" data-en-label="Mobile menu">
+  <a class="ml" href="#about"><span data-en="About">من نحن</span><small>01</small></a>
+  <a class="ml" href="#services"><span data-en="Services">خدماتنا</span><small>02</small></a>
+  <a class="ml" href="#projects"><span data-en="Projects">المشاريع</span><small>03</small></a>
+  <a class="ml" href="#team"><span data-en="Team">فريق العمل</span><small>04</small></a>
+  <a class="ml" href="#insights"><span data-en="Insights">مقالات</span><small>05</small></a>
+  <a class="ml" href="#contact"><span data-en="Contact">تواصل معنا</span><small>06</small></a>
+  <div class="socials" data-socials style="color:var(--navy)"></div>
+</nav>
+
+<div id="main" tabindex="-1">
+<!-- =================== HOME =================== -->
+<main id="view-home">
+  <section class="hero" id="top" aria-roledescription="carousel" aria-label="مشاريع مختارة" data-en-label="Featured projects">
+    <div class="slides" id="slides">
+      <div class="slide on"><img src="img/bus-2.webp" srcset="img/bus-2-800.webp 800w, img/bus-2.webp 1200w" sizes="100vw" width="1200" height="888" alt="فتحات التكييف والإضاءة في سقف محطة الأتوبيس المركزية بالعاصمة الإدارية" data-en-alt="Air diffusers and lighting in the ceiling of the Central Bus Station, New Administrative Capital" fetchpriority="high"></div>
+      <div class="slide"><img src="img/may15-1.webp" srcset="img/may15-1-800.webp 800w, img/may15-1.webp 1313w" sizes="100vw" width="1313" height="875" alt="مستشفى 15 مايو ليلاً" data-en-alt="15 May Hospital at night" loading="lazy"></div>
+      <div class="slide"><img src="img/matay-1.webp" srcset="img/matay-1-800.webp 800w, img/matay-1.webp 1455w" sizes="100vw" width="1455" height="1078" alt="تصور معماري لمستشفى مطاي" data-en-alt="Rendering of Matay Hospital" loading="lazy"></div>
+    </div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <span class="sweep" aria-hidden="true"></span>
+    <span class="hero-glow" aria-hidden="true"></span>
+    <div class="wrap hero-in" aria-live="polite">
+      <span class="hero-tag" id="h-tag">محطة الأتوبيس المركزية — العاصمة الإدارية</span>
+      <h1 id="h-title">نهندس ما لا تراه.</h1>
+      <p class="hero-sub" id="h-sub">التكييف، والإطفاء، والكهرباء، والغازات الطبية. الأنظمة المخفية في السقف والجدران هي اللي بتخلّي المبنى يشتغل، ودي شغلتنا من 2004.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary mag" href="#projects"><span data-en="Explore our projects">شاهد مشاريعنا</span><span class="ico"><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span></a>
+        <a class="btn btn-light mag" href="#consult-form"><span data-en="Book a consultation">احجز استشارة</span></a>
+      </div>
+    </div>
+    <div class="hero-bar">
+      <div class="wrap">
+        <div class="tabs" id="h-tabs" role="tablist" aria-label="اختيار الشريحة" data-en-label="Choose slide">
+          <button type="button" role="tab" aria-selected="true"><i></i><b>01</b><span data-en="Transport &amp; stations">نقل ومحطات</span></button>
+          <button type="button" role="tab" aria-selected="false" tabindex="-1"><i></i><b>02</b><span data-en="Hospitals">مستشفيات</span></button>
+          <button type="button" role="tab" aria-selected="false" tabindex="-1"><i></i><b>03</b><span data-en="Design to delivery">من التصميم للتسليم</span></button>
+        </div>
+        <div class="hero-ctl">
+          <button class="circ" type="button" id="h-prev" aria-label="الشريحة السابقة" data-en-label="Previous slide"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          <div class="counter" aria-hidden="true"><b id="h-n">01</b> / 03</div>
+          <button class="circ" type="button" id="h-play" aria-label="إيقاف العرض التلقائي"><svg id="i-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg id="i-play" hidden width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l12-7z"/></svg></button>
+          <button class="circ" type="button" id="h-next" aria-label="الشريحة التالية" data-en-label="Next slide"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="marq" aria-label="من عملائنا" data-en-label="Some of our clients">
+    <div class="wrap marq-in">
+      <p class="marq-l" data-en="Some of our clients">من عملائنا</p>
+      <div class="marq-track">
+        <div class="marq-row">
+          <span>Tropicana Group</span><span>Qatari Diar</span><span>Hilton Taba</span><span>Egoth</span><span>Pyramisa Group</span><span>Sefora Group</span><span>City Stars Properties</span><span>Diyar Group</span>
+          <span aria-hidden="true">Tropicana Group</span><span aria-hidden="true">Qatari Diar</span><span aria-hidden="true">Hilton Taba</span><span aria-hidden="true">Egoth</span><span aria-hidden="true">Pyramisa Group</span><span aria-hidden="true">Sefora Group</span><span aria-hidden="true">City Stars Properties</span><span aria-hidden="true">Diyar Group</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="intro">
+        <div class="intro-copy">
+          <span class="eyebrow sec-tag rv" data-en="About the office">عن المكتب</span>
+          <h2 class="h2 split" data-en="From the drawing to a building that works.">من المخطط إلى مبنى بيشتغل.</h2>
+          <p class="lead rv" data-en="Techno Freeze Consulting is an engineering firm established in Cairo in 2004 as one of the E.I.D Group companies. We cover the mechanical, electrical and plumbing works of a project through every phase, from the feasibility study and tender documents to construction supervision.">تكنو فريز للاستشارات الهندسية مكتب تأسس في القاهرة عام 2004 كإحدى شركات E.I.D Group. نغطي الأعمال الميكانيكية والكهربائية والصحية للمشروع في كل مراحله، من دراسة الجدوى ومستندات المناقصة حتى الإشراف على التنفيذ.</p>
+          <p class="lead rv" data-en="Every drawing and document goes through an internal review for quality and sustainability requirements before it reaches the client.">كل رسم ومستند بيمر بمراجعة داخلية للجودة ومتطلبات الاستدامة قبل ما يوصل للعميل.</p>
+          <div class="pillars rv">
+            <div><b data-en="Quality">الجودة</b><span data-en="Internal review of every document">مراجعة داخلية لكل مستند</span></div>
+            <div><b data-en="Sustainability">الاستدامة</b><span data-en="Efficient, energy-aware systems">أنظمة موفّرة للطاقة</span></div>
+            <div><b data-en="Commitment">الالتزام</b><span data-en="On time, on budget, in scope">في الوقت والميزانية</span></div>
+          </div>
+        </div>
+        <div class="collage">
+          <figure class="cl cl-a clip"><img class="px" src="img/armant-1-800.webp" srcset="img/armant-1-800.webp 800w, img/armant-1.webp 1280w" sizes="(max-width:900px) 60vw, 26vw" alt="مبنى فندق وسكن الأطباء بأرمنت" data-en-alt="Armant Doctors' Hotel &amp; Residence" loading="lazy" width="1280" height="851"><figcaption data-en="Armant, Luxor">أرمنت، الأقصر</figcaption></figure>
+          <figure class="cl cl-b clip"><img class="px" src="img/hurghada-2-800.webp" srcset="img/hurghada-2-800.webp 800w, img/hurghada-2.webp 1041w" sizes="(max-width:900px) 40vw, 18vw" alt="غرفة قسطرة مجهزة بمستشفى الغردقة العام" data-en-alt="Catheterization lab, Hurghada General Hospital" loading="lazy" width="1041" height="694"><figcaption data-en="Cath lab, Hurghada">غرفة قسطرة، الغردقة</figcaption></figure>
+          <figure class="cl cl-c clip"><img class="px" src="img/armant-2-800.webp" srcset="img/armant-2-800.webp 800w, img/armant-2.webp 1280w" sizes="(max-width:900px) 40vw, 18vw" alt="سقف بفتحات تكييف في ممر واسع" data-en-alt="Corridor ceiling with air diffusers" loading="lazy" width="1280" height="851"><figcaption data-en="Ceiling diffusers">فتحات تكييف السقف</figcaption></figure>
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 200 200"><defs><path id="sealp" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#sealp">TECHNO FREEZE · DESIGN BETTER WORLD · SINCE 2004 · </textPath></text></svg>
+            <div class="seal-in"><b class="seal-n">22</b><span data-en="years">سنة خبرة</span></div>
+          </div>
+          <div class="dim" aria-hidden="true"><span>SECTION A–A</span></div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><b data-count="2004" data-from="1982">2004</b><span data-en="Founded in Cairo">سنة التأسيس في القاهرة</span></div>
+        <div class="stat"><b><span data-count="50">50</span><sup>+</sup></b><span data-en="Projects documented in our portfolio">مشروع موثّق في سابقة الأعمال</span></div>
+        <div class="stat"><b data-count="10">10</b><span data-en="Sectors, from hospitals to airports">قطاعات، من المستشفيات للمطارات</span></div>
+        <div class="stat"><b data-count="13">13</b><span data-en="Electromechanical disciplines">تخصص كهروميكانيكي</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services" style="background:var(--bg-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow sec-tag rv" data-en="Services">خدماتنا</span>
+          <h2 class="h2 split" data-en="One office for the whole life of the project.">مكتب واحد لعمر المشروع كله.</h2>
+        </div>
+        <p class="lead rv" style="max-width:40ch" data-en="The four stages below follow the project in order, and each one can be contracted on its own.">المراحل الأربعة دي بتمشي بترتيب المشروع، وكل مرحلة ممكن تتعاقد عليها لوحدها.</p>
+      </div>
+      <div class="svc">
+        <article class="svc-card" tabindex="0">
+          <div class="bgimg" aria-hidden="true"><img src="img/matay-1-800.webp" alt="" loading="lazy" width="800" height="593"></div>
+          <span class="svc-num" data-en="STAGE 01">المرحلة 01</span>
+          <svg class="svc-ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="40" height="40" rx="2"/><path d="M8 40l12-12 8 8 12-16 8 6"/></svg>
+          <h3 data-en="Planning &amp; feasibility">التخطيط ودراسات الجدوى</h3>
+          <ul>
+            <li data-en="Project feasibility studies">دراسات جدوى المشروع</li>
+            <li data-en="Cost estimates and evaluation reports">تقدير التكلفة وتقارير التقييم</li>
+            <li data-en="Design-basis, renovation and rehabilitation reports">تقارير أسس التصميم والتجديد وإعادة التأهيل</li>
+          </ul>
+        </article>
+        <article class="svc-card" tabindex="0">
+          <div class="bgimg" aria-hidden="true"><img src="img/bus-2-800.webp" alt="" loading="lazy" width="800" height="592"></div>
+          <span class="svc-num" data-en="STAGE 02">المرحلة 02</span>
+          <svg class="svc-ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M10 46L46 10"/><rect x="8" y="8" width="16" height="16" rx="2"/><path d="M32 48h16V32"/><circle cx="28" cy="28" r="4"/></svg>
+          <h3 data-en="Engineering &amp; design">التصميم الهندسي</h3>
+          <ul>
+            <li data-en="Schematic, detailed and construction drawings">تصميمات مبدئية وتفصيلية ورسومات تنفيذ</li>
+            <li data-en="Specifications and bills of quantities">المواصفات وجداول الكميات</li>
+            <li data-en="P&amp;IDs, cause &amp; effect matrices, value engineering">مخططات P&amp;ID ومصفوفات السبب والنتيجة وهندسة القيمة</li>
+          </ul>
+        </article>
+        <article class="svc-card" tabindex="0">
+          <div class="bgimg" aria-hidden="true"><img src="img/tanta-1-800.webp" alt="" loading="lazy" width="800" height="533"></div>
+          <span class="svc-num" data-en="STAGE 03">المرحلة 03</span>
+          <svg class="svc-ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h20l8 8v32H14z"/><path d="M34 8v8h8"/><path d="M20 28h16M20 36h10"/></svg>
+          <h3 data-en="Procurement &amp; tendering">المناقصات والمشتريات</h3>
+          <ul>
+            <li data-en="Technical and financial evaluation of tender documents">التقييم الفني والمالي لمستندات المناقصة</li>
+            <li data-en="Bid evaluation and contract negotiation">تقييم العروض والتفاوض على العقود</li>
+            <li data-en="Contractor evaluation">تقييم المقاولين</li>
+          </ul>
+        </article>
+        <article class="svc-card" tabindex="0">
+          <div class="bgimg" aria-hidden="true"><img src="img/may15-4-800.webp" alt="" loading="lazy" width="800" height="483"></div>
+          <span class="svc-num" data-en="STAGE 04">المرحلة 04</span>
+          <svg class="svc-ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 40h40"/><path d="M12 40v-4a16 16 0 0132 0v4"/><path d="M24 20v-8h8v8"/><path d="M8 48h40"/></svg>
+          <h3 data-en="Construction supervision">الإشراف على التنفيذ</h3>
+          <ul>
+            <li data-en="Project and construction management for MEP works">إدارة مشروعات وتنفيذ الأعمال الكهروميكانيكية</li>
+            <li data-en="Scheduling, cost control and schedule monitoring">الجدولة والتحكم في التكلفة ومتابعة البرنامج الزمني</li>
+            <li data-en="Supervision of testing and commissioning">الإشراف على الاختبار والتشغيل</li>
+          </ul>
+        </article>
+      </div>
+      <div class="spec rv">
+        <div class="spec-h"><h3 style="font-size:20px" data-en="Disciplines we cover">التخصصات اللي بنغطيها</h3><span data-en="Thirteen systems, one coordinated set of drawings.">13 نظام، في مجموعة رسومات واحدة متنسّقة.</span></div>
+        <ul>
+          <li><code>HVAC</code><span data-en="Air conditioning &amp; ventilation">التكييف والتهوية</span></li>
+          <li><code>FF</code><span data-en="Fire fighting networks">شبكات مكافحة الحريق</span></li>
+          <li><code>FA</code><span data-en="Fire alarm networks">شبكات إنذار الحريق</span></li>
+          <li><code>MG</code><span data-en="Medical gases">الغازات الطبية</span></li>
+          <li><code>LV</code><span data-en="Electrical distribution">شبكات التوزيع الكهربي</span></li>
+          <li><code>HV</code><span data-en="High-voltage networks">شبكات الجهد العالي</span></li>
+          <li><code>I&amp;C</code><span data-en="Control &amp; instrumentation">التحكم والقياس</span></li>
+          <li><code>TEL</code><span data-en="Telecommunication">الاتصالات</span></li>
+          <li><code>SEC</code><span data-en="Security networks">الأمن والمراقبة</span></li>
+          <li><code>PL</code><span data-en="Indoor plumbing">السباكة الداخلية</span></li>
+          <li><code>W&amp;D</code><span data-en="Outdoor water &amp; drainage">شبكات المياه والصرف الخارجية</span></li>
+          <li><code>WTP</code><span data-en="Water &amp; wastewater treatment">معالجة المياه والصرف</span></li>
+          <li><code>NG</code><span data-en="Natural gas networks">شبكات الغاز الطبيعي</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow sec-tag rv" data-en="Selected work">أعمال مختارة</span>
+          <h2 class="h2 split" data-en="Buildings our systems run.">مبانٍ أنظمتها من تصميمنا.</h2>
+        </div>
+        <a class="btn btn-ghost mag" href="#projects"><span data-en="All projects">كل المشاريع</span><span class="ico"><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span></a>
+      </div>
+    </div>
+    <div>
+      <div class="rail" id="rail" tabindex="0" role="region" aria-label="مشاريع مختارة، اسحب للتصفح" data-en-label="Selected projects, drag to browse"></div>
+    </div>
+    <div class="wrap rail-foot">
+      <div class="rail-meter" aria-hidden="true"><i id="rail-meter"></i></div>
+      <button class="circ" type="button" id="r-prev" aria-label="المشروع السابق" data-en-label="Previous project"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+      <button class="circ" type="button" id="r-next" aria-label="المشروع التالي" data-en-label="Next project"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button>
+    </div>
+  </section>
+
+  <section class="section" id="history" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow sec-tag rv" data-en="Milestones">محطات</span>
+          <h2 class="h2 split" data-en="Twenty-two years of drawings that got built.">22 سنة من رسومات اتنفذت.</h2>
+        </div>
+      </div>
+      <div class="tl" id="tl">
+        <span class="tl-line" id="tl-line" aria-hidden="true"></span>
+        <div class="tl-i rv"><b>2004</b><h3 data-en="The office opens in Cairo">تأسيس المكتب في القاهرة</h3><p data-en="As one of the E.I.D Group companies.">كإحدى شركات E.I.D Group.</p></div>
+        <div class="tl-i rv"><b>2005</b><h3 data-en="Red Sea resorts">منتجعات البحر الأحمر</h3><p data-en="Design and supervision for Premier Romance in Sahl Hasheesh and Sefora Resort in Marsa Alam.">تصميم وإشراف لفندق Premier Romance في سهل حشيش وSefora Resort في مرسى علم.</p></div>
+        <div class="tl-i rv"><b>2010</b><h3 data-en="Hilton Taba and Movenpick Aswan">هيلتون طابا وموفنبيك أسوان</h3><p data-en="Plus full MEP design for Diyar Hotel in Saudi Arabia.">وتصميم كهروميكانيكي كامل لفندق ديار في السعودية.</p></div>
+        <div class="tl-i rv"><b>2011</b><h3 data-en="St. Regis Cairo">سانت ريجيس القاهرة</h3><p data-en="Design review, quantity surveying and cost estimation for the owner, Qatari Diar.">مراجعة التصميم وحصر الكميات وتقدير التكلفة للمالك Qatari Diar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section eng" id="engineer">
+    <div class="eng-grid" aria-hidden="true"></div>
+    <div class="wrap eng-in">
+      <div class="eng-fig">
+        <svg class="lines" viewBox="0 0 600 600" preserveAspectRatio="none" aria-hidden="true">
+          <line class="dl" x1="0" y1="20" x2="600" y2="20"/>
+          <line class="dl" x1="20" y1="0" x2="20" y2="600"/>
+          <path class="dl" d="M40 580 H580 M40 572 V588 M580 572 V588"/>
+          <path class="dl" d="M580 40 V580"/>
+        </svg>
+        <div class="card float" id="eng-card"><img src="img/engineer-480.webp" srcset="img/engineer-480.webp 480w, img/engineer.webp 1024w" sizes="(max-width:900px) 90vw, 500px" alt="رسم كاريكاتيري لمهندس تكنو فريز بالقميص الأزرق، ماسك جهاز قياس ولوح ملاحظات بجوار وحدة تكييف" data-en-alt="Illustrated Techno Freeze engineer in a blue shirt holding a meter and a clipboard beside an AC unit" loading="lazy" width="1024" height="1024"></div>
+        <span class="callout c1" aria-hidden="true"><i></i>72.0 °F · SITE READING</span>
+        <span class="callout c2" aria-hidden="true"><i></i>R/C MANIFOLD GAUGES</span>
+        <span class="callout c3" aria-hidden="true"><i></i>SITE REPORT · REV 02</span>
+      </div>
+      <div class="eng-copy">
+        <span class="eyebrow sec-tag rv" data-en="Your consulting engineer">مهندسك الاستشاري</span>
+        <h2 class="h2 split" data-en="We measure before we decide.">بنقيس قبل ما نقرر.</h2>
+        <p class="quote rv" data-en="Every recommendation starts on site: a reading, a load calculation, and a report you can hand to the contractor.">كل توصية بتبدأ من الموقع: قراءة، وحساب أحمال، وتقرير تقدر تسلّمه للمقاول.</p>
+        <p class="lead rv" data-en="Whether you need a design review for an existing building, cooling-load calculations for a new one, or full supervision until handover, start with a site visit.">سواء محتاج مراجعة تصميم لمبنى قائم، أو حساب أحمال تكييف لمبنى جديد، أو إشراف كامل لحد الاستلام، ابدأ بزيارة موقع.</p>
+        <div class="rv"><a class="btn btn-primary mag" href="#consult-form"><span data-en="Request a site visit">اطلب زيارة موقع</span><span class="ico"><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap about">
+      <div class="about-l">
+        <span class="eyebrow sec-tag rv" data-en="Team">فريق العمل</span>
+        <h2 class="h2 split" data-en="Engineers who have worked on Egypt&#39;s and the Gulf&#39;s largest projects.">مهندسين اشتغلوا في أكبر مشروعات مصر والخليج.</h2>
+        <p class="lead rv" data-en="The team covers mechanical, electrical and project-management work, with experience across ministries, hospitals, hotels and national projects.">الفريق بيغطي الميكانيكا والكهرباء وإدارة المشروعات، بخبرة في الوزارات والمستشفيات والفنادق والمشروعات القومية.</p>
+        <div class="badges rv">
+          <span data-en="ASHRAE member">عضو ASHRAE</span>
+          <span data-en="Egyptian Society of Mechanical Engineers">الجمعية المصرية للمهندسين الميكانيكيين</span>
+          <span data-en="Federation of Arab Engineers">اتحاد المهندسين العرب</span>
+          <span data-en="Egyptian Engineers Syndicate">نقابة المهندسين المصرية</span>
+        </div>
+      </div>
+      <div class="team">
+        <div class="member rv"><div class="mono" aria-hidden="true">MM</div><div><h3 data-en="Eng. Mohammad Abdul-Halim Mattar">م. محمد عبد الحليم مطر</h3><div class="role" data-en="Project Manager — Mechanical Power">مدير مشروعات — ميكانيكا قوى</div><p data-en="B.Sc. Mechanical Power (Helwan, 1988), Diploma in Air Conditioning &amp; Ventilation (Ain Shams, 2004), MBA (Sadat Academy, 2021). ASHRAE member.">بكالوريوس ميكانيكا قوى (حلوان 1988)، دبلومة تكييف وتهوية (عين شمس 2004)، ماجستير إدارة أعمال (أكاديمية السادات 2021). عضو ASHRAE.</p></div></div>
+        <div class="member rv"><div class="mono" aria-hidden="true">KA</div><div><h3 data-en="Eng. Kareem Adel El Akhal">م. كريم عادل الأكحل</h3><div class="role" data-en="Principal electrical consultant">استشاري الأعمال الكهربائية</div><p data-en="Electrical work on projects including the Grand Egyptian Museum, Children&#39;s Cancer Hospital 57357, and New Administrative Capital and NEOM networks.">أعمال كهربائية في مشروعات منها المتحف المصري الكبير، ومستشفى 57357، وشبكات العاصمة الإدارية ونيوم.</p></div></div>
+        <div class="member rv"><div class="mono" aria-hidden="true">IS</div><div><h3 data-en="Eng. Ibrahim Hosny El-Says">م. إبراهيم حسني السيس</h3><div class="role" data-en="Mechanical engineer — healthcare projects">مهندس ميكانيكا — مشروعات المستشفيات</div><p data-en="Twelve years at the Ministry of Health, including the Universal Health Insurance projects in Port Said, Luxor and Ismailia.">12 سنة في وزارة الصحة، منها مشروعات التأمين الصحي الشامل في بورسعيد والأقصر والإسماعيلية.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="insights" style="background:var(--bg-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow sec-tag rv" data-en="Engineering insights">مقالات هندسية</span>
+          <h2 class="h2 split" data-en="Short notes for owners before they build.">ملاحظات قصيرة للمالك قبل ما يبني.</h2>
+        </div>
+      </div>
+      <div class="ins" id="ins"></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap" style="margin-bottom:clamp(56px,8vw,110px)">
+      <div class="cta rv">
+        <span class="blob" aria-hidden="true"></span>
+        <div>
+          <h2 data-en="Have a project on the drawing board?">عندك مشروع لسه على الورق؟</h2>
+          <p data-en="Send us the details and an engineer will review them with you.">ابعتلنا التفاصيل ومهندس من المكتب هيراجعها معاك.</p>
+        </div>
+        <div class="cta-r">
+          <img class="cta-face" src="img/engineer-face.webp" alt="" width="200" height="200" loading="lazy">
+          <a class="btn btn-light mag" href="#consult-form"><span data-en="Start the request">ابدأ الطلب</span><span class="ico"><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap contact">
+      <div class="contact-l">
+        <span class="eyebrow sec-tag rv" data-en="Request a consultation">اطلب استشارة</span>
+        <h2 class="h2 split" data-en="Tell us about the project.">احكيلنا عن مشروعك.</h2>
+        <p class="lead rv" data-en="Fill in the form and it turns into a ready WhatsApp message to the office. Drawings and plans can be attached in the same chat.">املأ البيانات وهتتحول لرسالة واتساب جاهزة للمكتب. الرسومات والمخططات تقدر تبعتها في نفس المحادثة.</p>
+        <div class="info rv">
+          <div><span class="k" data-en="Address">العنوان</span><span class="v" data-latn data-en="7A+8A Hassan El Mamoun St, New Nasr City, Cairo">7A+8A شارع حسن المأمون، مدينة نصر الجديدة، القاهرة</span></div>
+          <div><span class="k" data-en="Phone">الهاتف</span><span class="v"><a id="c-phone" href="tel:+201143431177" dir="ltr" data-latn style="text-decoration:none;display:inline-block">01143431177</a></span></div>
+        </div>
+        <div class="socials rv" data-socials style="color:var(--navy)"></div>
+      </div>
+      <form class="consult rv" id="consult-form" novalidate aria-label="نموذج طلب استشارة" data-en-label="Consultation request form">
+        <div class="f"><label for="f-name"><span data-en="Full name">الاسم بالكامل</span> <em aria-hidden="true">*</em></label><input id="f-name" name="name" autocomplete="name" required aria-describedby="e-name"><span class="err" id="e-name"></span></div>
+        <div class="f"><label for="f-phone"><span data-en="Phone number">رقم الموبايل</span> <em aria-hidden="true">*</em></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="01xxxxxxxxx" dir="ltr" required aria-describedby="e-phone"><span class="err" id="e-phone"></span></div>
+        <div class="f"><label for="f-email" data-en="Email address">البريد الإلكتروني</label><input id="f-email" name="email" type="email" autocomplete="email" dir="ltr" placeholder="name@company.com" aria-describedby="e-email"><span class="err" id="e-email"></span></div>
+        <div class="f"><label for="f-company" data-en="Company (optional)">الشركة (اختياري)</label><input id="f-company" name="company" autocomplete="organization"></div>
+        <div class="f"><label for="f-type"><span data-en="Project type">نوع المشروع</span> <em aria-hidden="true">*</em></label>
+          <select id="f-type" name="type" required aria-describedby="e-type">
+            <option value="" data-en="Choose…">اختر…</option>
+            <option value="health" data-en="Hospital / healthcare">مستشفى / منشأة صحية</option>
+            <option value="hotel" data-en="Hotel / resort">فندق / منتجع</option>
+            <option value="res" data-en="Residential">سكني</option>
+            <option value="com" data-en="Commercial / offices">تجاري / إداري</option>
+            <option value="ind" data-en="Industrial">صناعي</option>
+            <option value="edu" data-en="Education">تعليمي</option>
+            <option value="other" data-en="Other">أخرى</option>
+          </select><span class="err" id="e-type"></span></div>
+        <div class="f"><label for="f-service"><span data-en="Required service">الخدمة المطلوبة</span> <em aria-hidden="true">*</em></label>
+          <select id="f-service" name="service" required aria-describedby="e-service">
+            <option value="" data-en="Choose…">اختر…</option>
+            <option value="feasibility" data-en="Planning &amp; feasibility">التخطيط ودراسة الجدوى</option>
+            <option value="design" data-en="Engineering &amp; design">التصميم الهندسي</option>
+            <option value="review" data-en="Design review">مراجعة تصميم</option>
+            <option value="tender" data-en="Procurement &amp; tendering">المناقصات والمشتريات</option>
+            <option value="supervision" data-en="Construction supervision">الإشراف على التنفيذ</option>
+            <option value="quote" data-en="Quotation request">طلب عرض سعر</option>
+          </select><span class="err" id="e-service"></span></div>
+        <div class="f"><label for="f-loc"><span data-en="Project location">موقع المشروع</span> <em aria-hidden="true">*</em></label><input id="f-loc" name="location" required aria-describedby="e-loc"><span class="err" id="e-loc"></span></div>
+        <div class="f"><label for="f-budget" data-en="Estimated budget (optional)">الميزانية التقديرية (اختياري)</label><input id="f-budget" name="budget"></div>
+        <div class="f full"><label for="f-desc"><span data-en="Project description">وصف المشروع</span> <em aria-hidden="true">*</em></label><textarea id="f-desc" name="desc" required aria-describedby="e-desc" placeholder="المساحة، عدد الأدوار، المرحلة الحالية، الأنظمة المطلوبة…" data-en-ph="Area, number of floors, current stage, systems needed…"></textarea><span class="err" id="e-desc"></span></div>
+        <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+        <label class="check" for="f-ok"><input type="checkbox" id="f-ok" required aria-describedby="e-ok"><span data-en="I agree that Techno Freeze may use these details to contact me about this request only.">أوافق على استخدام تكنو فريز لهذه البيانات للتواصل معي بخصوص هذا الطلب فقط.</span></label>
+        <span class="err" id="e-ok" style="grid-column:1/-1;color:var(--red-text);font-size:13.5px;font-weight:600"></span>
+        <p class="vh" id="form-status" role="status"></p>
+        <div class="form-foot">
+          <small data-en="Nothing is sent until you press send inside WhatsApp.">مفيش حاجة بتتبعت إلا لما تدوس إرسال جوه واتساب.</small>
+          <button class="btn btn-primary mag" type="submit"><span data-en="Prepare my request">جهّز الطلب</span><span class="ico"><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></span></button>
+        </div>
+        <div class="result" id="result" hidden tabindex="-1">
+          <b data-en="Your request is ready.">طلبك جاهز.</b>
+          <p data-en="Open WhatsApp to send it to the office. If WhatsApp doesn&#39;t open, copy the text and send it from your phone.">افتح واتساب وابعته للمكتب. لو واتساب مافتحش، انسخ النص وابعته من موبايلك.</p>
+          <div class="row">
+            <a class="btn btn-primary" id="wa-link" href="#" target="_blank" rel="noopener"><span data-en="Open in WhatsApp">افتح في واتساب</span></a>
+            <button class="btn btn-ghost" type="button" id="copy"><span data-en="Copy text">انسخ النص</span></button>
+          </div>
+          <label class="vh" for="wa-text" data-en="Request text">نص الطلب</label>
+          <textarea id="wa-text" readonly rows="5"></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- =================== PROJECTS =================== -->
+<main id="view-projects" hidden>
+  <div class="page-head">
+    <div class="pg-grid" aria-hidden="true"></div>
+    <div class="wrap">
+      <nav class="crumbs" aria-label="مسار الصفحة" data-en-label="Breadcrumb"><a href="#top" data-en="Home">الرئيسية</a> / <span data-en="Projects">المشاريع</span></nav>
+      <h1 class="h1" data-en="Portfolio">سابقة الأعمال</h1>
+      <p class="lead" style="margin-top:14px" data-en="Hospitals, hotels, housing and national projects in Egypt, Saudi Arabia, Qatar and Libya.">مستشفيات وفنادق ومشروعات سكنية وقومية في مصر والسعودية وقطر وليبيا.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="filters" id="filters" role="group" aria-label="تصفية حسب القطاع" data-en-label="Filter by sector"></div>
+    <p class="vh" id="grid-status" role="status"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+  <div class="wrap index">
+    <h2 data-en="More from the project record">مشروعات أخرى من السجل</h2>
+    <div class="tbl" tabindex="0" role="region" aria-label="جدول المشروعات" data-en-label="Project table">
+      <table>
+        <thead><tr><th scope="col" data-en="Project">المشروع</th><th scope="col" data-en="Location">الموقع</th><th scope="col" data-en="Scope">نطاق العمل</th><th scope="col" data-en="Year">السنة</th></tr></thead>
+        <tbody id="tbl"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<main id="view-project" hidden></main>
+<main id="view-insight" hidden></main>
+</div>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-cols">
+      <div class="ftr-about">
+        <img src="img/logo-light.png" alt="Techno Freeze Consulting" width="300" height="95" loading="lazy">
+        <p data-en="Electromechanical engineering consultancy in Cairo since 2004: HVAC, fire fighting, power, plumbing and medical gases.">استشارات هندسية كهروميكانيكية في القاهرة منذ 2004: تكييف، وإطفاء، وكهرباء، وسباكة، وغازات طبية.</p>
+        <div class="socials" data-socials style="color:#fff"></div>
+      </div>
+      <nav aria-label="روابط الشركة" data-en-label="Company links">
+        <h2 data-en="Company">الشركة</h2>
+        <ul><li><a href="#about" data-en="About">من نحن</a></li><li><a href="#team" data-en="Team">فريق العمل</a></li><li><a href="#history" data-en="Milestones">محطات</a></li><li><a href="#insights" data-en="Insights">مقالات</a></li></ul>
+      </nav>
+      <nav aria-label="روابط الخدمات" data-en-label="Service links">
+        <h2 data-en="Services">الخدمات</h2>
+        <ul><li><a href="#services" data-en="Feasibility">دراسات الجدوى</a></li><li><a href="#services" data-en="Design">التصميم</a></li><li><a href="#services" data-en="Tendering">المناقصات</a></li><li><a href="#services" data-en="Supervision">الإشراف</a></li></ul>
+      </nav>
+      <div>
+        <h2 data-en="Contact">تواصل</h2>
+        <ul style="color:#D5D9EA;font-size:15px;line-height:1.9">
+          <li data-latn data-en="7A+8A Hassan El Mamoun St, New Nasr City, Cairo">7A+8A شارع حسن المأمون، مدينة نصر الجديدة، القاهرة</li>
+          <li><a href="tel:+201143431177" dir="ltr" data-latn>01143431177</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr-big" aria-hidden="true">TECHNO.FREEZE</div>
+    <div class="ftr-bot">
+      <span>© 2026 Techno Freeze Consulting · Design Better World</span>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" type="button" aria-label="العودة لأعلى الصفحة" data-en-label="Back to top" tabindex="-1"><svg class="ring" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="25"/><circle class="rp" id="totop-ring" cx="28" cy="28" r="25"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
+<div class="asst" id="asst">
+  <div class="asst-panel" id="asst-panel" hidden role="dialog" aria-label="كيف نقدر نساعدك؟" data-en-label="How can we help?">
+    <div class="asst-top"><img src="img/engineer-face.webp" alt="" width="200" height="200"><div><b data-en="Techno Freeze engineer">مهندس تكنو فريز</b><span data-en="Choose what you need">اختار اللي محتاجه</span></div></div>
+    <ul>
+      <li><a href="#consult-form" data-pick="design"><span data-en="Request an engineering consultation">اطلب استشارة هندسية</span><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></a></li>
+      <li><a href="#services" data-pick=""><span data-en="Ask about our services">اعرف خدماتنا</span><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></a></li>
+      <li><a href="#consult-form" data-pick="quote"><span data-en="Request a quotation">اطلب عرض سعر</span><svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></a></li>
+      <li><a id="asst-wa" href="#" target="_blank" rel="noopener"><span data-en="Message us on WhatsApp">راسلنا على واتساب</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4z"/></svg></a></li>
+    </ul>
+    <p class="note" data-en="Quick contact menu, not a chatbot.">ده منيو تواصل سريع، مش شات بوت.</p>
+  </div>
+  <span class="asst-hint" id="asst-hint" data-auto aria-hidden="true" data-en="Need help with a project?">محتاج مساعدة في مشروع؟</span>
+  <button class="asst-btn" id="asst-btn" type="button" aria-expanded="false" aria-controls="asst-panel" aria-label="تواصل مع مهندس تكنو فريز" data-en-label="Contact a Techno Freeze engineer"><img src="img/engineer-face.webp" alt="" width="200" height="200"><span class="ping" aria-hidden="true"></span></button>
+</div>
+
+<dialog class="lb" id="lb" aria-label="معرض الصور" data-en-label="Image gallery">
+  <div class="lb-in">
+    <img id="lb-img" alt="">
+    <button class="circ lb-x" type="button" id="lb-x" aria-label="إغلاق" data-en-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <button class="circ lb-p" type="button" id="lb-p" aria-label="الصورة السابقة" data-en-label="Previous image"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+    <button class="circ lb-n" type="button" id="lb-n" aria-label="الصورة التالية" data-en-label="Next image"><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button>
+    <div class="lb-c" id="lb-c"></div>
+  </div>
+</dialog>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+"use strict";
+/* ============ Client details: fill these in ============ */
+var CONFIG = {
+  whatsapp: "201143431177",  // international format without +
+  phone: "01143431177",
+  social: { facebook: "", instagram: "", linkedin: "", youtube: "" }
+};
+
+var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+var lang = document.documentElement.lang === "en" ? "en" : "ar";
+
+/* ============ Data (2026 company portfolio) ============ */
+var SECTORS = {
+  health: { ar: "رعاية صحية", en: "Healthcare" },
+  transport: { ar: "نقل ومحطات", en: "Transport" },
+  hotels: { ar: "فنادق ومنتجعات", en: "Hotels & resorts" },
+  residential: { ar: "سكني", en: "Residential" },
+  commercial: { ar: "تجاري", en: "Commercial" },
+  education: { ar: "تعليمي", en: "Education" }
+};
+var P = [
+  { id: "bus-station", sector: "transport", img: ["bus-1", "bus-2"], name: { ar: "محطة الأتوبيس المركزية", en: "Central Bus Station" }, loc: { ar: "العاصمة الإدارية الجديدة", en: "New Administrative Capital" } },
+  { id: "may-15-hospital", sector: "health", img: ["may15-1", "may15-2", "may15-3", "may15-4"], name: { ar: "مستشفى 15 مايو", en: "15 May Hospital" }, loc: { ar: "محافظة القاهرة", en: "Cairo Governorate" } },
+  { id: "tanta-general", sector: "health", img: ["tanta-1"], name: { ar: "مستشفى طنطا العام", en: "Tanta General Hospital" }, loc: { ar: "محافظة الغربية", en: "Gharbia Governorate" } },
+  { id: "premier-romance", sector: "hotels", img: ["premier-1"], year: "2005", name: { ar: "فندق بريمير رومانس", en: "Premier Romance Hotel" }, loc: { ar: "الغردقة — سهل حشيش", en: "Hurghada — Sahl Hasheesh" }, owner: { ar: "مجموعة تروبيكانا", en: "Tropicana Group" }, desc: { ar: "فندق خمس نجوم.", en: "Five-star hotel." }, scope: { ar: "التصميم المبدئي والإشراف على التنفيذ", en: "Design concept and supervision of implementation" } },
+  { id: "matay-hospital", sector: "health", img: ["matay-1"], name: { ar: "مستشفى مطاي", en: "Matay Hospital" }, loc: { ar: "مصر", en: "Egypt" } },
+  { id: "armant-doctors", sector: "health", img: ["armant-1", "armant-2"], name: { ar: "فندق وسكن الأطباء بأرمنت", en: "Armant Doctors' Hotel & Residence" }, loc: { ar: "محافظة الأقصر", en: "Luxor Governorate" } },
+  { id: "hurghada-general", sector: "health", img: ["hurghada-1", "hurghada-2"], name: { ar: "مستشفى الغردقة العام", en: "Hurghada General Hospital" }, loc: { ar: "محافظة البحر الأحمر", en: "Red Sea Governorate" }, desc: { ar: "مبنى الفندقة ومبنى القسطرة.", en: "Hotel building and catheterization building." } },
+  { id: "the-city", sector: "residential", img: ["thecity-1"], name: { ar: "كمبوند ذا سيتي", en: "The City Compound" }, loc: { ar: "مصر", en: "Egypt" } },
+  { id: "luxor-housing", sector: "residential", img: ["luxor-1"], name: { ar: "مشروع إسكان الأقصر", en: "Luxor Housing Project" }, loc: { ar: "الأقصر", en: "Luxor" } },
+  { id: "villa-saad-sallam", sector: "residential", img: ["villa-1"], name: { ar: "فيلا د. سعد سلام", en: "Villa Dr. Saad Sallam" }, loc: { ar: "مصر", en: "Egypt" }, owner: { ar: "خاص", en: "Private" }, desc: { ar: "فيلا سكنية. الاستشاري الرئيسي: Hany Saad Innovation.", en: "Residential villa. Main consultant: Hany Saad Innovation." } },
+  { id: "misr-university", sector: "education", img: ["misr-1"], name: { ar: "جامعة مصر — كلية الطب", en: "Misr University — Faculty of Medicine" }, loc: { ar: "مدينة 6 أكتوبر", en: "6th of October City" } },
+  { id: "toy-world", sector: "commercial", img: ["toyworld-1"], name: { ar: "توي وورلد", en: "Toy World" }, loc: { ar: "مصر", en: "Egypt" } }
+];
+var INDEX = [
+  { n: { ar: "فندق سانت ريجيس", en: "St. Regis Hotel" }, l: { ar: "القاهرة", en: "Cairo" }, s: { ar: "مراجعة التصميم وحصر الكميات وتقدير التكلفة", en: "Design review, quantity surveying, cost estimation" }, y: "2011" },
+  { n: { ar: "هيلتون طابا", en: "Hilton Taba" }, l: { ar: "طابا", en: "Taba" }, s: { ar: "التصميم المبدئي والإشراف", en: "Design concept and supervision" }, y: "2010" },
+  { n: { ar: "موفنبيك أسوان", en: "Movenpick Aswan" }, l: { ar: "أسوان", en: "Aswan" }, s: { ar: "التصميم المبدئي والإشراف", en: "Design concept and supervision" }, y: "2010" },
+  { n: { ar: "فندق ديار (4 نجوم)", en: "Diyar Hotel (4-star)" }, l: { ar: "السعودية", en: "Saudi Arabia" }, s: { ar: "تصميم السباكة والحريق والتكييف والكهرباء والتيار الخفيف", en: "Plumbing, fire fighting, HVAC, power, lighting and light-current design" }, y: "2010" },
+  { n: { ar: "سيتي ستارز شرم", en: "City Stars Sharm Hotel" }, l: { ar: "شرم الشيخ", en: "Sharm El Sheikh" }, s: { ar: "مراجعة التصميم وحصر الكميات وتقدير التكلفة", en: "Design review, quantity surveying, cost estimation" }, y: "2009" },
+  { n: { ar: "سوفيتيل شرم", en: "Sofitel Sharm" }, l: { ar: "شرم الشيخ", en: "Sharm El Sheikh" }, s: { ar: "التصميم المبدئي والإشراف", en: "Design concept and supervision" }, y: "2008" },
+  { n: { ar: "بيراميزا الغردقة", en: "Pyramisa Hotel" }, l: { ar: "الغردقة — سهل حشيش", en: "Hurghada — Sahl Hasheesh" }, s: { ar: "التصميم المبدئي والإشراف", en: "Design concept and supervision" }, y: "2006" },
+  { n: { ar: "سيفورا ريزورت", en: "Sefora Resort" }, l: { ar: "مرسى علم", en: "Marsa Alam" }, s: { ar: "التصميم المبدئي والإشراف", en: "Design concept and supervision" }, y: "2005" }
+];
+var ARTICLES = [
+  { id: "choosing-ac-system", img: "bus-2", mins: 4,
+    cat: { ar: "تكييف", en: "HVAC" },
+    t: { ar: "سبليت ولا VRF ولا تشيلر؟ إزاي تختار نظام التكييف لمبناك", en: "Split, VRF or chiller? Choosing the air-conditioning system for your building" },
+    ex: { ar: "الاختيار مش بالسعر بس. حجم المبنى، وعدد ساعات التشغيل، ومكان المعدات بيحددوا النظام الصح.", en: "Price is only one factor. Building size, operating hours and where the equipment can sit decide the right system." },
+    body: { ar: ["أول سؤال قبل أي اختيار هو حساب الأحمال الحرارية بشكل صحيح: مساحة الأماكن، والاتجاه، ونوع الزجاج، وعدد الأشخاص، والأجهزة. أي نظام هيتختار على حمل غلط هيبقى يا إما أكبر من اللازم ويستهلك كهرباء زيادة، يا إما أصغر ومش هيوصل للراحة المطلوبة.", "أجهزة السبليت مناسبة للمساحات الصغيرة والوحدات المستقلة، وتكلفتها الأولية قليلة، لكن عددها بيزيد بسرعة في المباني الكبيرة وبيشوّه الواجهات. أنظمة VRF بتربط وحدات داخلية كتير بوحدات خارجية قليلة، ومناسبة للمكاتب والفنادق الصغيرة والفيلات الكبيرة اللي محتاجة تحكم لكل غرفة.", "التشيلرات مع وحدات مناولة الهواء وFCU مناسبة للمباني الكبيرة زي المستشفيات والمولات، لأنها بتسمح بتحكم أدق في جودة الهواء والضغوط، وده مهم جداً في غرف العمليات والعزل. نصيحتنا: اطلب دراسة مقارنة لتكلفة الدورة الكاملة (تركيب وتشغيل وصيانة) مش سعر التركيب بس."],
+            en: ["The first question is a correct heat-load calculation: room areas, orientation, glazing, occupancy and equipment. A system chosen on the wrong load is either oversized and wastes power, or undersized and never reaches comfort.", "Split units suit small spaces and independent units, with a low first cost, but their number grows fast in large buildings and clutters the façade. VRF systems connect many indoor units to a few outdoor units and suit offices, small hotels and large villas that need room-by-room control.", "Chillers with air-handling units and FCUs suit large buildings such as hospitals and malls, because they allow tighter control of air quality and pressure, which matters in operating and isolation rooms. Our advice: ask for a life-cycle cost comparison (installation, operation and maintenance), not the installation price alone."] } },
+  { id: "medical-gases-early", img: "may15-3", mins: 3,
+    cat: { ar: "مستشفيات", en: "Healthcare" },
+    t: { ar: "الغازات الطبية: ليه لازم تتصمم من أول يوم في المستشفى", en: "Medical gases: why they must be designed from day one" },
+    ex: { ar: "الأكسجين والشفط والهواء الطبي شبكات حرجة، وتأخير تصميمها بيعني تكسير وتعديل بعد البناء.", en: "Oxygen, vacuum and medical air are critical networks. Designing them late means demolition and rework after construction." },
+    body: { ar: ["شبكات الغازات الطبية بتشمل الأكسجين، والهواء الطبي، والشفط، وأحياناً أكسيد النيتروز وثاني أكسيد الكربون. كل غاز ليه محطة مركزية، ومسار مواسير، ولوحات إنذار، ومخارج عند كل سرير.", "المشكلة لما التصميم يتأخر إن المسارات بتتعارض مع مجاري التكييف وحوامل الكهرباء في الأسقف، وأماكن المحطات المركزية بتبقى مش متوفرة. النتيجة تعديلات مكلفة ووقت ضايع.", "الصح إن التنسيق بين الغازات الطبية والتكييف والحريق والكهرباء يبدأ من مرحلة التصميم المبدئي، في رسومات تنسيق موحّدة. ده اللي بنعمله في مشروعات المستشفيات من الدراسة لحد الاختبار والتشغيل."],
+            en: ["Medical gas networks include oxygen, medical air, vacuum and sometimes nitrous oxide and carbon dioxide. Each gas needs a central plant, a pipe route, alarm panels and outlets at every bed.", "When design starts late, routes clash with HVAC ducts and cable trays in the ceilings, and space for central plants is no longer available. The result is costly changes and lost time.", "The right approach is to coordinate medical gases with HVAC, fire fighting and electrical systems from the concept stage, in one combined set of coordination drawings. That is how we run hospital projects, from the study to testing and commissioning."] } },
+  { id: "design-review-value", img: "matay-1", mins: 3,
+    cat: { ar: "إدارة مشروعات", en: "Project management" },
+    t: { ar: "مراجعة التصميم قبل التنفيذ: أرخص تعديل هو اللي على الورق", en: "Design review before construction: the cheapest change is on paper" },
+    ex: { ar: "مراجعة مستقلة للرسومات وجداول الكميات بتكشف التعارضات والأخطاء قبل ما تتحول لأوامر تغيير.", en: "An independent review of drawings and bills of quantities catches clashes and errors before they become change orders." },
+    body: { ar: ["أي خطأ في الرسومات بيتكلف قليل وهو لسه على الورق، وبيتكلف أضعاف لما يتكشف في الموقع بعد الصب أو التركيب.", "مراجعة التصميم بتشمل التأكد من حسابات الأحمال، واختيار المعدات، والضغوط الاستاتيكية للمراوح والطلمبات، وأقطار المواسير، والتنسيق بين التخصصات، ومطابقة جداول الكميات للرسومات.", "المراجعة المستقلة بتدي المالك صورة واضحة قبل المناقصة، وبتقلل أوامر التغيير والمطالبات أثناء التنفيذ. ودي خدمة بنقدمها لوحدها أو كجزء من الإشراف."],
+            en: ["Any drawing error is cheap while it is still on paper, and costs many times more once it is discovered on site after pouring or installation.", "A design review checks the load calculations, equipment selection, static pressure for fans and pumps, pipe sizes, coordination between disciplines, and whether the bills of quantities match the drawings.", "An independent review gives the owner a clear picture before tendering and reduces change orders and claims during construction. We offer it on its own or as part of supervision."] } }
+];
+var SOCIAL_ICONS = {
+  facebook: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21z"/></svg>',
+  instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>',
+  linkedin: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 9h3v11H5zM6.5 4a1.75 1.75 0 1 1 0 3.5 1.75 1.75 0 0 1 0-3.5zM10 9h2.9v1.5h.1c.4-.8 1.4-1.7 3-1.7 3.1 0 3.7 2 3.7 4.7V20h-3v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20H10z"/></svg>',
+  youtube: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3z"/></svg>',
+  whatsapp: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.4A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.8c0 3.3 2.8 6.2 6.2 6.2l1-1.5-2-1-1 .9a4.4 4.4 0 0 1-2.6-2.6l.9-1-1-2z" fill="currentColor" stroke="none"/></svg>'
+};
+
+/* ============ Helpers ============ */
+function $(s, r) { return (r || document).querySelector(s); }
+function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+function t(o) { return o ? (o[lang] || o.ar) : ""; }
+function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+function src(k) { return "img/" + k + ".webp"; }
+function src8(k) { return "img/" + k + "-800.webp"; }
+var ARROW = '<svg class="flip" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg>';
+var L = {
+  ar: { all: "الكل", cat: "القطاع", loc: "الموقع", year: "السنة", owner: "المالك", scope: "نطاق العمل", gallery: "صور المشروع", next: "المشروع التالي", back: "كل المشاريع", home: "الرئيسية", projects: "المشاريع", insights: "مقالات", none: "—", photo: "صورة", of: "من", hint: "اضغط على أي صورة لتكبيرها.", missing: "تفاصيل نطاق العمل والسنة هتتضاف من المكتب.", req: "الحقل ده مطلوب.", phone: "اكتب رقم صحيح، مثلاً 01012345678.", email: "البريد مش مكتوب صح.", desc: "اكتب وصف أوضح (20 حرف على الأقل).", ok: "لازم توافق عشان نقدر نتواصل معاك.", copied: "اتنسخ", notset: "[سيضاف من المكتب]", read: "اقرأ المقال", mins: "دقائق قراءة", shown: "مشروع معروض", view: "عرض المشروع", socialSoon: "الرابط هيتضاف قريباً", pause: "إيقاف العرض التلقائي", play: "تشغيل العرض التلقائي", backIns: "كل المقالات", talk: "اتكلم مع مهندس", fix: "راجع الحقول المعلّمة بالأحمر.", ready: "طلبك جاهز." },
+  en: { all: "All", cat: "Sector", loc: "Location", year: "Year", owner: "Owner", scope: "Scope", gallery: "Project gallery", next: "Next project", back: "All projects", home: "Home", projects: "Projects", insights: "Insights", none: "—", photo: "Photo", of: "of", hint: "Tap any image to enlarge it.", missing: "Scope and year details to be added by the office.", req: "This field is required.", phone: "Enter a valid number, e.g. 01012345678.", email: "That email address doesn't look right.", desc: "Please describe the project (at least 20 characters).", ok: "Please agree so we can contact you.", copied: "Copied", notset: "[To be added by the office]", read: "Read article", mins: "min read", shown: "projects shown", view: "View project", socialSoon: "Link coming soon", pause: "Pause autoplay", play: "Play autoplay", backIns: "All insights", talk: "Talk to an engineer", fix: "Check the fields marked in red.", ready: "Your request is ready." }
+};
+function l(k) { return L[lang][k]; }
+var AR_D = "٠١٢٣٤٥٦٧٨٩";
+function num(v) { return lang === "ar" ? String(v).replace(/[0-9]/g, function (d) { return AR_D[d]; }) : String(v).replace(/[٠-٩]/g, function (d) { return AR_D.indexOf(d); }); }
+var SKIP_DIGITS = "script,style,code,textarea,svg,.callout,.ld-read,[data-latn],.marq-row,.dim";
+function digitize(root) {
+  var w = document.createTreeWalker(root || document.body, NodeFilter.SHOW_TEXT, { acceptNode: function (n) {
+    var p = n.parentElement; if (!p || !/[0-9٠-٩]/.test(n.nodeValue) || p.closest(SKIP_DIGITS)) return NodeFilter.FILTER_REJECT; return NodeFilter.FILTER_ACCEPT; } });
+  var n, list = []; while ((n = w.nextNode())) list.push(n);
+  list.forEach(function (x) { var v = num(x.nodeValue); if (v !== x.nodeValue) x.nodeValue = v; });
+}
+function waURL(text) { return "https://wa.me/" + (CONFIG.whatsapp || "") + (text ? "?text=" + encodeURIComponent(text) : ""); }
+
+/* ============ Loader ============ */
+var loader = $("#loader");
+var hero = $(".hero"), heroStarted = false;
+(function runLoader() {
+  var seen = false;
+  try { seen = sessionStorage.getItem("tf-seen") === "1"; } catch (e) {}
+  if (seen || reduce) { loader.remove(); loader = null; return; }
+  document.body.classList.add("lock");
+  var n = $("#ld-n"), bar = $("#ld-bar"), read = $("#ld-read"), shown = 0, target = 10, ready = false, t0 = performance.now();
+  var crit = ["img/bus-2.webp", "img/logo.png", "img/logo-light.png"], done = 0;
+  crit.forEach(function (u) { var im = new Image(); im.onload = im.onerror = function () { done++; target = 10 + Math.round(done / crit.length * 70); }; im.src = u; });
+  if (document.readyState === "complete") ready = true; else window.addEventListener("load", function () { ready = true; });
+  setTimeout(function () { ready = true; }, 3200);
+  function tick() {
+    var el = performance.now() - t0;
+    var goal = ready && el > 1100 ? 100 : Math.min(target + el / 60, 94);
+    shown += (goal - shown) * 0.1; if (goal === 100 && shown > 99.4) shown = 100;
+    var v = Math.round(shown);
+    n.textContent = num(v); bar.style.strokeDashoffset = 502 - 502 * v / 100;
+    read.textContent = "SUPPLY " + (24 - v * 0.12).toFixed(1) + " °C · RETURN 24.0 °C";
+    if (v >= 100) { finish(); return; }
+    requestAnimationFrame(tick);
+  }
+  function finish() {
+    try { sessionStorage.setItem("tf-seen", "1"); } catch (e) {}
+    loader.classList.add("out");
+    setTimeout(function () { document.body.classList.remove("lock"); startHero(); }, 550);
+    setTimeout(function () { if (loader) { loader.remove(); loader = null; } }, 1150);
+  }
+  requestAnimationFrame(tick);
+})();
+
+/* ============ Header ============ */
+var hdr = $("#hdr"), mnav = $("#mnav"), burger = $("#burger"), forceSolid = false, lastY = 0, prog = $("#prog");
+function hdrState() {
+  var y = window.scrollY;
+  hdr.classList.toggle("solid", forceSolid || y > 40 || mnav.classList.contains("open"));
+  var down = y > lastY && y > 500 && !mnav.classList.contains("open") && !hdr.contains(document.activeElement);
+  if (y < lastY - 4 || y < 500) hdr.classList.remove("hide"); else if (down) hdr.classList.add("hide");
+  lastY = y;
+  var h = document.documentElement.scrollHeight - innerHeight;
+  var fr = h > 0 ? Math.min(1, y / h) : 0;
+  prog.style.transform = "scaleX(" + fr + ")";
+  var tt = document.getElementById("totop"); if (tt) { var on = y > 500; tt.classList.toggle("show", on); tt.tabIndex = on ? 0 : -1; document.getElementById("totop-ring").style.strokeDashoffset = 157 - 157 * fr; }
+}
+window.addEventListener("scroll", hdrState, { passive: true });
+hdr.addEventListener("focusin", function () { hdr.classList.remove("hide"); });
+function closeMenu() { mnav.classList.remove("open"); burger.setAttribute("aria-expanded", "false"); document.body.classList.remove("lock"); hdrState(); }
+burger.addEventListener("click", function () {
+  var open = !mnav.classList.contains("open");
+  mnav.classList.toggle("open", open); burger.setAttribute("aria-expanded", String(open));
+  document.body.classList.toggle("lock", open);
+  $$("a.ml", mnav).forEach(function (a, i) { a.style.transitionDelay = open ? (0.15 + i * 0.05) + "s" : "0s"; });
+  hdrState();
+  if (open) setTimeout(function () { var f = $("a.ml", mnav); if (f) f.focus(); }, 300);
+});
+mnav.addEventListener("click", function (e) { if (e.target.closest("a")) closeMenu(); });
+
+/* ============ Hero slider ============ */
+var SLIDES = [
+  { tag: { ar: "محطة الأتوبيس المركزية — العاصمة الإدارية", en: "Central Bus Station — New Administrative Capital" },
+    t: { ar: "نهندس ما لا تراه.", en: "Engineering what you don't see." },
+    s: { ar: "التكييف، والإطفاء، والكهرباء، والغازات الطبية. الأنظمة المخفية في السقف والجدران هي اللي بتخلّي المبنى يشتغل، ودي شغلتنا من 2004.", en: "HVAC, fire fighting, power and medical gases. The systems hidden in ceilings and walls are what make a building work, and they have been our job since 2004." } },
+  { tag: { ar: "مستشفى 15 مايو — القاهرة", en: "15 May Hospital — Cairo" },
+    t: { ar: "مستشفيات لا تتوقف.", en: "Hospitals that never stop." },
+    s: { ar: "غرف عمليات، وغازات طبية، وأنظمة حريق لمستشفيات في القاهرة والدلتا والصعيد والبحر الأحمر.", en: "Operating theatres, medical gases and fire systems for hospitals across Cairo, the Delta, Upper Egypt and the Red Sea." } },
+  { tag: { ar: "مستشفى مطاي — تصور معماري", en: "Matay Hospital — rendering" },
+    t: { ar: "من الرسم إلى الواقع.", en: "From drawing to built reality." },
+    s: { ar: "من أول دراسة جدوى لحد الاختبار والتشغيل والاستلام، بمكتب واحد مسؤول عن كل الأنظمة.", en: "From the first feasibility study to testing, commissioning and handover, with one office responsible for every system." } }
+];
+var slideEls = $$(".slide"), tabs = $$("#h-tabs button"), cur = 0, timer = null, DUR = 7000, userPaused = false, hoverPaused = false;
+hero.style.setProperty("--dur", DUR + "ms");
+function words(s) { return s.split(" ").map(function (w, i) { return '<span class="w"><span style="--i:' + i + '">' + esc(w) + "</span></span>"; }).join(" "); }
+function setSlide(i, dir, quiet) {
+  var prev = cur;
+  cur = (i + SLIDES.length) % SLIDES.length;
+  if (!quiet && prev !== cur) { slideEls.forEach(function (s, k) { s.classList.toggle("on", k === cur); }); }
+  slideEls.forEach(function (s, k) { s.setAttribute("aria-hidden", k === cur ? "false" : "true"); });
+  tabs.forEach(function (d, k) {
+    d.setAttribute("aria-selected", k === cur ? "true" : "false"); d.tabIndex = k === cur ? 0 : -1;
+    var bar = d.querySelector("i"); bar.style.transition = "none"; bar.style.transform = "scaleX(0)";
+  });
+  requestAnimationFrame(function () { requestAnimationFrame(function () { tabs.forEach(function (d) { var bar = d.querySelector("i"); bar.style.transition = ""; bar.style.transform = ""; }); }); });
+  var S = SLIDES[cur];
+  $("#h-n").textContent = num("0" + (cur + 1));
+  $("#h-tag").textContent = num(t(S.tag));
+  $("#h-title").innerHTML = words(num(t(S.t)));
+  $("#h-sub").textContent = num(t(S.s));
+  if (!quiet && !reduce) { hero.classList.remove("anim"); void hero.offsetWidth; hero.classList.add("anim"); }
+}
+function play() { stop(); if (reduce || userPaused || hoverPaused || !heroStarted || $("#view-home").hidden) return; timer = setInterval(function () { setSlide(cur + 1, 1); }, DUR); }
+function stop() { clearInterval(timer); timer = null; }
+function syncPlay() {
+  var paused = userPaused || reduce; hero.classList.toggle("paused", paused || hoverPaused);
+  $("#i-pause").hidden = paused; $("#i-play").hidden = !paused;
+  $("#h-play").setAttribute("aria-label", paused ? l("play") : l("pause"));
+}
+function userGo(i, dir) { setSlide(i, dir); play(); }
+$("#h-next").addEventListener("click", function () { userGo(cur + 1, 1); });
+$("#h-prev").addEventListener("click", function () { userGo(cur - 1, -1); });
+$("#h-play").addEventListener("click", function () { userPaused = !userPaused; syncPlay(); userPaused ? stop() : play(); });
+tabs.forEach(function (d, k) { d.addEventListener("click", function () { if (k !== cur) userGo(k, k > cur ? 1 : -1); }); });
+$("#h-tabs").addEventListener("keydown", function (e) {
+  var f = lang === "ar" ? "ArrowLeft" : "ArrowRight", b = lang === "ar" ? "ArrowRight" : "ArrowLeft";
+  if (e.key === f) { e.preventDefault(); userGo(cur + 1, 1); tabs[cur].focus(); } else if (e.key === b) { e.preventDefault(); userGo(cur - 1, -1); tabs[cur].focus(); }
+});
+hero.addEventListener("mouseenter", function () { if (finePointer) { hoverPaused = true; stop(); syncPlay(); } });
+hero.addEventListener("mouseleave", function () { hoverPaused = false; syncPlay(); play(); });
+hero.addEventListener("focusin", function () { hoverPaused = true; stop(); syncPlay(); });
+hero.addEventListener("focusout", function (e) { if (!hero.contains(e.relatedTarget)) { hoverPaused = false; syncPlay(); play(); } });
+var sx = null, sy = null;
+hero.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+hero.addEventListener("touchend", function (e) {
+  if (sx === null) return;
+  var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy; sx = null;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { var fwd = dx < 0; if (lang === "ar") fwd = !fwd; userGo(cur + (fwd ? 1 : -1), fwd ? 1 : -1); }
+}, { passive: true });
+document.addEventListener("visibilitychange", function () { document.hidden ? stop() : play(); });
+function startHero() { if (heroStarted) return; heroStarted = true; if (!reduce) { hero.classList.remove("anim"); void hero.offsetWidth; hero.classList.add("anim"); } play(); }
+
+/* ============ Cards & rail ============ */
+function card(p) {
+  return '<a class="pcard" href="#project-' + p.id + '">' +
+    '<div class="ph"><img src="' + src8(p.img[0]) + '" alt="" loading="lazy" width="800" height="600"><span class="tag">' + esc(t(SECTORS[p.sector])) + '</span><span class="view" aria-hidden="true">' + ARROW + "</span></div>" +
+    '<div class="meta"><div><h3><span>' + esc(t(p.name)) + '</span></h3><div class="loc">' + esc(t(p.loc)) + "</div></div>" +
+    (p.year ? '<span class="yr">' + p.year + "</span>" : "") + "</div></a>";
+}
+var rail = $("#rail");
+function renderRail() {
+  var pick = ["bus-station", "may-15-hospital", "premier-romance", "tanta-general", "hurghada-general", "the-city", "misr-university"];
+  rail.innerHTML = pick.map(function (id) { return P.find(function (p) { return p.id === id; }); }).map(card).join("");
+  railMeter();
+}
+function railMeter() {
+  var max = rail.scrollWidth - rail.clientWidth, m = $("#rail-meter");
+  var w = rail.scrollWidth ? rail.clientWidth / rail.scrollWidth : 1, frac = max > 0 ? Math.abs(rail.scrollLeft) / max : 0;
+  m.style.width = (w * 100) + "%";
+  var sign = getComputedStyle(rail).direction === "rtl" ? -1 : 1;
+  m.style.transform = "translateX(" + (sign * frac * (1 / w - 1) * 100) + "%)";
+}
+rail.addEventListener("scroll", railMeter, { passive: true });
+window.addEventListener("resize", railMeter);
+function railStep(dir) {
+  var c = rail.querySelector(".pcard"); var w = c ? c.getBoundingClientRect().width + 22 : 400;
+  var sign = getComputedStyle(rail).direction === "rtl" ? -1 : 1;
+  rail.scrollBy({ left: dir * w * sign, behavior: reduce ? "auto" : "smooth" });
+}
+$("#r-next").addEventListener("click", function () { railStep(1); });
+$("#r-prev").addEventListener("click", function () { railStep(-1); });
+(function drag() {
+  var down = false, startX = 0, startL = 0, moved = false, vx = 0, lastX = 0;
+  rail.addEventListener("pointerdown", function (e) { if (e.pointerType !== "mouse" || e.button !== 0) return; down = true; moved = false; startX = lastX = e.clientX; startL = rail.scrollLeft; });
+  window.addEventListener("pointermove", function (e) {
+    if (!down) return; var dx = e.clientX - startX; vx = e.clientX - lastX; lastX = e.clientX;
+    if (Math.abs(dx) > 6) { moved = true; rail.classList.add("dragging"); }
+    if (moved) rail.scrollLeft = startL - dx;
+  });
+  window.addEventListener("pointerup", function () {
+    if (!down) return; down = false;
+    if (moved && !reduce) rail.scrollBy({ left: -vx * 12, behavior: "smooth" });
+    setTimeout(function () { rail.classList.remove("dragging"); }, 0);
+  });
+  rail.addEventListener("click", function (e) { if (moved) { e.preventDefault(); moved = false; } }, true);
+  rail.addEventListener("dragstart", function (e) { e.preventDefault(); });
+})();
+
+/* ============ Projects page ============ */
+var filter = "all";
+function renderProjects(focusKey) {
+  var keys = ["all"].concat(Object.keys(SECTORS));
+  $("#filters").innerHTML = keys.map(function (k) {
+    var n = k === "all" ? P.length : P.filter(function (p) { return p.sector === k; }).length;
+    return '<button type="button" data-f="' + k + '" aria-pressed="' + (k === filter) + '">' + esc(k === "all" ? l("all") : t(SECTORS[k])) + "<sup>" + n + "</sup></button>";
+  }).join("");
+  var list = P.filter(function (p) { return filter === "all" || p.sector === filter; });
+  $("#grid").innerHTML = list.map(card).join("");
+  $$("#grid .pcard").forEach(function (c, i) { c.classList.add("in"); c.style.animationDelay = (i * 0.06) + "s"; });
+  $("#grid-status").textContent = list.length + " " + l("shown");
+  $("#tbl").innerHTML = INDEX.map(function (r) { return "<tr><td>" + esc(t(r.n)) + "</td><td>" + esc(t(r.l)) + "</td><td>" + esc(t(r.s)) + '</td><td class="y">' + r.y + "</td></tr>"; }).join("");
+  if (focusKey) { var nb = $('#filters [data-f="' + focusKey + '"]'); if (nb) nb.focus(); }
+}
+$("#filters").addEventListener("click", function (e) { var b = e.target.closest("button[data-f]"); if (!b) return; filter = b.dataset.f; renderProjects(filter); digitize($("#view-projects")); });
+
+/* ============ Insights ============ */
+function renderInsights() {
+  $("#ins").innerHTML = ARTICLES.map(function (a) {
+    return '<a class="icard" href="#insight-' + a.id + '"><div class="ph"><img src="' + src8(a.img) + '" alt="" loading="lazy" width="800" height="500"><span class="cat">' + esc(t(a.cat)) + "</span></div>" +
+      '<div class="im">' + a.mins + " " + l("mins") + "</div><h3>" + esc(t(a.t)) + "</h3><p>" + esc(t(a.ex)) + '</p><span class="more">' + l("read") + " " + ARROW + "</span></a>";
+  }).join("");
+}
+function renderArticle(a) {
+  var v = $("#view-insight");
+  v.innerHTML =
+    '<div class="page-head"><div class="pg-grid" aria-hidden="true"></div><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#top">' + l("home") + '</a> / <a href="#insights">' + l("insights") + "</a></nav>" +
+    '<h1 class="h1" style="font-size:clamp(28px,4.4vw,56px);max-width:24ch">' + esc(t(a.t)) + '</h1><p class="lead" style="margin-top:12px">' + esc(t(a.cat)) + " · " + a.mins + " " + l("mins") + "</p></div></div>" +
+    '<div class="wrap"><article class="article"><img src="' + src(a.img) + '" alt="" width="1200" height="600" style="border-radius:10px;aspect-ratio:16/8;object-fit:cover;width:100%">' +
+    a.body[lang].map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") +
+    '<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:12px"><a class="btn btn-primary mag" href="#consult-form"><span>' + l("talk") + '</span><span class="ico">' + ARROW + '</span></a><a class="btn btn-ghost mag" href="#insights"><span>' + l("backIns") + "</span></a></div></article></div>";
+  bindButtons(v);
+}
+
+/* ============ Project detail ============ */
+function renderDetail(p) {
+  var i = P.indexOf(p), nx = P[(i + 1) % P.length], v = $("#view-project");
+  var meta = [[l("cat"), t(SECTORS[p.sector])], [l("loc"), t(p.loc)], [l("year"), p.year || l("none")]];
+  if (p.owner) meta.push([l("owner"), t(p.owner)]);
+  if (p.scope) meta.push([l("scope"), t(p.scope)]);
+  var body = p.desc ? t(p.desc) : ""; if (!p.scope) body += (body ? " " : "") + l("missing");
+  v.innerHTML =
+    '<section class="pd-hero"><img src="' + src(p.img[0]) + '" alt="" width="1200" height="800">' +
+    '<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#top">' + l("home") + '</a> / <a href="#projects">' + l("projects") + "</a> / " + esc(t(p.name)) + "</nav>" +
+    '<span class="eyebrow">' + esc(t(SECTORS[p.sector])) + "</span><h1>" + esc(t(p.name)) + "</h1></div></section>" +
+    '<div class="wrap"><div class="pd-meta">' + meta.map(function (m) { return "<div><span>" + esc(m[0]) + "</span><b>" + esc(m[1]) + "</b></div>"; }).join("") + "</div>" +
+    '<div class="pd-body"><div style="display:flex;flex-direction:column;gap:16px"><h2 style="font-size:26px">' + l("gallery") + "</h2><p>" + esc(body) + '</p><p style="font-size:14.5px">' + l("hint") + "</p></div>" +
+    '<div class="gal">' + p.img.map(function (k, j) { return '<button type="button" data-g="' + j + '" aria-label="' + l("photo") + " " + (j + 1) + " " + l("of") + " " + p.img.length + '"><img src="' + src8(k) + '" alt="" loading="lazy" width="800" height="533"></button>'; }).join("") + "</div></div>" +
+    '<div class="pd-next"><a class="btn btn-ghost mag" href="#projects"><span>' + l("back") + '</span></a><div style="display:flex;flex-direction:column;gap:4px;align-items:flex-end"><span class="eyebrow">' + l("next") + '</span><a class="big" href="#project-' + nx.id + '">' + esc(t(nx.name)) + "</a></div></div></div>";
+  $$(".gal button", v).forEach(function (b) { b.addEventListener("click", function () { openLB(p, +b.dataset.g, b); }); });
+  bindButtons(v);
+}
+
+/* ============ Lightbox ============ */
+var lb = $("#lb"), lbP = null, lbI = 0, lbFrom = null;
+function showLB() { var im = $("#lb-img"); im.src = src(lbP.img[lbI]); im.alt = t(lbP.name) + " — " + (lbI + 1); im.style.animation = "none"; void im.offsetWidth; im.style.animation = ""; $("#lb-c").textContent = (lbI + 1) + " " + l("of") + " " + lbP.img.length; var many = lbP.img.length > 1; $("#lb-p").hidden = !many; $("#lb-n").hidden = !many; }
+function openLB(p, i, from) { lbP = p; lbI = i; lbFrom = from; showLB(); if (lb.showModal) lb.showModal(); else lb.setAttribute("open", ""); }
+lb.addEventListener("close", function () { if (lbFrom) lbFrom.focus(); });
+$("#lb-x").addEventListener("click", function () { lb.close(); });
+$("#lb-n").addEventListener("click", function () { lbI = (lbI + 1) % lbP.img.length; showLB(); });
+$("#lb-p").addEventListener("click", function () { lbI = (lbI - 1 + lbP.img.length) % lbP.img.length; showLB(); });
+lb.addEventListener("click", function (e) { if (e.target === lb || e.target.classList.contains("lb-in")) lb.close(); });
+lb.addEventListener("keydown", function (e) {
+  if (!lbP || lbP.img.length < 2) return;
+  if (e.key === (lang === "ar" ? "ArrowLeft" : "ArrowRight")) $("#lb-n").click();
+  if (e.key === (lang === "ar" ? "ArrowRight" : "ArrowLeft")) $("#lb-p").click();
+});
+
+/* ============ Router ============ */
+var lastView = "";
+function route(keepScroll) {
+  var h = location.hash.replace("#", "");
+  var view = "home", item = null;
+  if (h === "projects") view = "projects";
+  else if (h.indexOf("project-") === 0 && (item = P.find(function (p) { return "project-" + p.id === h; }))) view = "project";
+  else if (h.indexOf("insight-") === 0 && (item = ARTICLES.find(function (a) { return "insight-" + a.id === h; }))) view = "insight";
+  ["home", "projects", "project", "insight"].forEach(function (v) { $("#view-" + v).hidden = v !== view; });
+  $$(".nav a").forEach(function (a) { a.removeAttribute("aria-current"); });
+  var navKey = view === "projects" || view === "project" ? "projects" : view === "insight" ? "insights" : null;
+  if (navKey) { var n = $('.nav a[data-nav="' + navKey + '"]'); if (n) n.setAttribute("aria-current", "page"); }
+  if (view === "project") renderDetail(item);
+  if (view === "insight") renderArticle(item);
+  if (view === "project" || view === "insight") digitize($("#view-" + view));
+  forceSolid = view !== "home"; hdrState();
+  if (view === "home") play(); else stop();
+  var titles = { home: "Techno Freeze Consulting", projects: l("projects") + " — Techno Freeze", project: item ? t(item.name) + " — Techno Freeze" : "", insight: item ? t(item.t) + " — Techno Freeze" : "" };
+  document.title = titles[view] || titles.home;
+  if (keepScroll === true) { lastView = view; return; }
+  var smooth = lastView === "home" && view === "home" && !reduce;
+  if (view === "home") {
+    var target = h && h !== "top" ? document.getElementById(h) : null;
+    if (target) requestAnimationFrame(function () { target.scrollIntoView({ behavior: smooth ? "smooth" : "auto" }); if (h === "consult-form") setTimeout(function () { $("#f-name").focus({ preventScroll: true }); }, smooth ? 700 : 50); });
+    else if (lastView !== "home" || h === "top") window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
+  } else {
+    window.scrollTo(0, 0);
+    var hd = $("#view-" + view + " h1"); if (hd) { hd.setAttribute("tabindex", "-1"); hd.focus({ preventScroll: true }); }
+  }
+  lastView = view;
+  if (window.ScrollTrigger) setTimeout(function () { ScrollTrigger.refresh(); }, 80);
+}
+window.addEventListener("hashchange", function () { route(false); });
+
+/* ============ Assistant ============ */
+var asst = $("#asst-panel"), abtn = $("#asst-btn");
+function closeAsst(focusBtn) { if (asst.hidden) return; asst.hidden = true; abtn.setAttribute("aria-expanded", "false"); if (focusBtn) abtn.focus(); }
+abtn.addEventListener("click", function () { var o = asst.hidden; asst.hidden = !o; abtn.setAttribute("aria-expanded", String(o)); $("#asst-hint").hidden = true; if (o) { var f = asst.querySelector("a"); if (f) f.focus(); } });
+$$("a", asst).forEach(function (a) { a.addEventListener("click", function () { if (a.dataset.pick) $("#f-service").value = a.dataset.pick; closeAsst(); }); });
+document.addEventListener("click", function (e) { if (!e.target.closest("#asst")) closeAsst(); });
+document.addEventListener("click", function (e) { var s = e.target.closest("a[data-soon]"); if (s) e.preventDefault(); });
+document.addEventListener("keydown", function (e) { if (e.key === "Escape") { if (mnav.classList.contains("open")) { closeMenu(); burger.focus(); } closeAsst(true); } });
+
+$("#totop").addEventListener("click", function () { window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }); var f = $("#main"); setTimeout(function () { f.focus({ preventScroll: true }); }, reduce ? 0 : 600); });
+setTimeout(function () { var h = $("#asst-hint"); if (h) h.hidden = true; }, 11000);
+if ("IntersectionObserver" in window) {
+  new IntersectionObserver(function (es) { es.forEach(function (e) { $("#asst").classList.toggle("away", e.isIntersecting && !$("#view-home").hidden); if (e.isIntersecting) closeAsst(); }); }, { threshold: 0.55 }).observe(hero);
+}
+
+/* ============ Form ============ */
+var form = $("#consult-form");
+function setErr(id, msg) { var e = $("#e-" + id); if (!e) return; e.textContent = msg || ""; var inp = $("#f-" + id); if (inp) inp.setAttribute("aria-invalid", msg ? "true" : "false"); var f = e.closest(".f"); if (f) { f.classList.remove("bad"); if (msg && !reduce) { void f.offsetWidth; f.classList.add("bad"); } } }
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  if ($("#f-web").value) return;
+  var v = function (id) { return $("#f-" + id).value.trim(); };
+  var bad = null;
+  function check(id, ok, msg) { setErr(id, ok ? "" : msg); if (!ok && !bad) bad = $("#f-" + id); }
+  check("name", v("name").length > 1, l("req"));
+  check("phone", /^\+?[0-9\s-]{8,16}$/.test(v("phone")), v("phone") ? l("phone") : l("req"));
+  check("email", !v("email") || /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v("email")), l("email"));
+  check("type", !!v("type"), l("req"));
+  check("service", !!v("service"), l("req"));
+  check("loc", v("loc").length > 1, l("req"));
+  check("desc", v("desc").length >= 20, v("desc") ? l("desc") : l("req"));
+  var ok = $("#f-ok").checked; $("#e-ok").textContent = ok ? "" : l("ok"); $("#f-ok").setAttribute("aria-invalid", ok ? "false" : "true"); if (!ok && !bad) bad = $("#f-ok");
+  if (bad) { $("#form-status").textContent = l("fix"); bad.focus(); return; }
+  var sel = function (id) { var s = $("#f-" + id); return s.options[s.selectedIndex].text; };
+  var lines = lang === "en"
+    ? ["Consultation request — Techno Freeze website", "Name: " + v("name"), "Phone: " + v("phone"), v("email") && "Email: " + v("email"), v("company") && "Company: " + v("company"), "Project type: " + sel("type"), "Service: " + sel("service"), "Location: " + v("loc"), v("budget") && "Budget: " + v("budget"), "Details: " + v("desc")]
+    : ["طلب استشارة — موقع تكنو فريز", "الاسم: " + v("name"), "الموبايل: " + v("phone"), v("email") && "البريد: " + v("email"), v("company") && "الشركة: " + v("company"), "نوع المشروع: " + sel("type"), "الخدمة: " + sel("service"), "الموقع: " + v("loc"), v("budget") && "الميزانية: " + v("budget"), "التفاصيل: " + v("desc")];
+  var text = lines.filter(Boolean).join("\n");
+  $("#wa-text").value = text; $("#wa-link").href = waURL(text);
+  $("#form-status").textContent = l("ready");
+  var r = $("#result"); r.hidden = false; r.focus();
+});
+$$("#consult-form input, #consult-form select, #consult-form textarea").forEach(function (el) {
+  el.addEventListener("input", function () { var id = el.id.replace("f-", ""); var e = $("#e-" + id); if (e && e.textContent) setErr(id, ""); });
+});
+$("#f-ok").addEventListener("change", function () { if (this.checked) { $("#e-ok").textContent = ""; this.setAttribute("aria-invalid", "false"); } });
+$("#copy").addEventListener("click", function () {
+  var ta = $("#wa-text"), span = this.querySelector("span");
+  function done() { var o = span.textContent; span.textContent = l("copied"); setTimeout(function () { span.textContent = o; }, 1600); }
+  try { navigator.clipboard.writeText(ta.value).then(done, function () { ta.select(); }); } catch (e) { ta.select(); }
+});
+
+/* ============ Socials ============ */
+function renderSocials() {
+  var items = [["facebook", "Facebook"], ["instagram", "Instagram"], ["linkedin", "LinkedIn"], ["youtube", "YouTube"], ["whatsapp", "WhatsApp"]];
+  var html = items.map(function (it) {
+    var url = it[0] === "whatsapp" ? waURL("") : CONFIG.social[it[0]];
+    var soon = !url;
+    return '<a href="' + (url || "#contact") + '"' + (soon ? ' data-soon="1" title="' + l("socialSoon") + '"' : ' target="_blank" rel="noopener"') + ' aria-label="' + it[1] + (soon ? " — " + l("socialSoon") : "") + '">' + SOCIAL_ICONS[it[0]] + "</a>";
+  }).join("");
+  $$("[data-socials]").forEach(function (box) { box.innerHTML = html; });
+}
+
+/* ============ Language ============ */
+function applyLang() {
+  var root = document.documentElement;
+  root.lang = lang; root.dir = lang === "ar" ? "rtl" : "ltr";
+  $$("[data-en]").forEach(function (el) {
+    if (el.dataset.ar === undefined) el.dataset.ar = el.innerHTML;
+    el.innerHTML = lang === "en" ? el.dataset.en : el.dataset.ar;
+    if (el.classList.contains("split")) { el.removeAttribute("aria-label"); el.dataset.splitDone = ""; }
+  });
+  $$("[data-t-en]").forEach(function (el) {
+    if (el.dataset.tAr === undefined) el.dataset.tAr = el.dataset.t;
+    el.dataset.t = lang === "en" ? el.dataset.tEn : el.dataset.tAr;
+  });
+  $$("[data-en-label]").forEach(function (el) {
+    if (el.dataset.arLabel === undefined) el.dataset.arLabel = el.getAttribute("aria-label") || "";
+    el.setAttribute("aria-label", lang === "en" ? el.dataset.enLabel : el.dataset.arLabel);
+  });
+  $$("[data-en-alt]").forEach(function (el) {
+    if (el.dataset.arAlt === undefined) el.dataset.arAlt = el.alt;
+    el.alt = lang === "en" ? el.dataset.enAlt : el.dataset.arAlt;
+  });
+  $$("[data-en-ph]").forEach(function (el) {
+    if (el.dataset.arPh === undefined) el.dataset.arPh = el.placeholder;
+    el.placeholder = lang === "en" ? el.dataset.enPh : el.dataset.arPh;
+  });
+  var lb2 = $("#lang"); lb2.textContent = lang === "en" ? "ع" : "EN"; lb2.lang = lang === "en" ? "ar" : "en";
+  renderSocials(); setSlide(cur, 0, true); syncPlay(); renderRail(); renderProjects(); renderInsights(); route(true);
+  bindButtons(document); digitize(document.body);
+}
+$("#lang").addEventListener("click", function () {
+  lang = lang === "ar" ? "en" : "ar";
+  try { localStorage.setItem("tf-lang", lang); } catch (e) {}
+  applyLang();
+});
+
+/* ============ Button motion: magnetic + ripple ============ */
+function bindButtons(scope) {
+  $$(".btn, .circ", scope).forEach(function (b) {
+    if (b.dataset.bound) return; b.dataset.bound = "1";
+    b.addEventListener("click", function (e) {
+      if (reduce || !e.clientX) return;
+      var r = b.getBoundingClientRect(), d = Math.max(r.width, r.height), s = document.createElement("span");
+      s.className = "ripple"; s.style.width = s.style.height = d + "px";
+      s.style.left = (e.clientX - r.left - d / 2) + "px"; s.style.top = (e.clientY - r.top - d / 2) + "px";
+      b.appendChild(s); setTimeout(function () { s.remove(); }, 700);
+    });
+    if (!finePointer || reduce || !b.classList.contains("mag")) return;
+    b.addEventListener("pointermove", function (e) {
+      var r = b.getBoundingClientRect(), x = e.clientX - r.left - r.width / 2, y = e.clientY - r.top - r.height / 2;
+      b.style.transform = "translate(" + (x * 0.16).toFixed(1) + "px," + (y * 0.28).toFixed(1) + "px)";
+    });
+    b.addEventListener("pointerleave", function () { b.style.transform = ""; });
+  });
+}
+
+/* ============ Scroll motion (GSAP) — content stays readable without it ============ */
+function motion() {
+  if (reduce || !window.gsap || !window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger);
+  $$(".split").forEach(function (el) {
+    var txt = num(el.textContent.trim()); el.setAttribute("aria-label", txt);
+    el.innerHTML = txt.split(" ").map(function (w) { return '<span class="w" aria-hidden="true"><span>' + esc(w) + "</span></span>"; }).join(" ");
+    gsap.from(el.querySelectorAll(".w>span"), { yPercent: 110, rotate: 3, duration: 1, stagger: 0.05, ease: "power4.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } });
+  });
+  ScrollTrigger.batch(".rv", { start: "top 92%", once: true, onEnter: function (els) { gsap.from(els, { y: 40, duration: 1, stagger: 0.08, ease: "power3.out", clearProps: "transform" }); } });
+  gsap.from(".svc-card", { y: 60, duration: 1, stagger: 0.12, ease: "power3.out", clearProps: "transform", scrollTrigger: { trigger: ".svc", start: "top 85%", once: true } });
+  $$(".clip").forEach(function (el) { gsap.from(el, { clipPath: "inset(15% 15% 15% 15% round 12px)", duration: 1.5, ease: "power3.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } }); });
+  if (window.innerWidth > 900) {
+    $$(".px").forEach(function (img) { gsap.fromTo(img, { yPercent: -9 }, { yPercent: 0, ease: "none", scrollTrigger: { trigger: img.parentNode, start: "top bottom", end: "bottom top", scrub: true } }); });
+    gsap.fromTo("#eng-card img", { scale: 1 }, { scale: 1.07, ease: "none", scrollTrigger: { trigger: "#engineer", start: "top bottom", end: "bottom top", scrub: true } });
+  }
+  $$("[data-count]").forEach(function (el) {
+    var end = +el.dataset.count, start = +(el.dataset.from || 0), o = { v: start };
+    ScrollTrigger.create({ trigger: el, start: "top 90%", once: true, onEnter: function () { gsap.fromTo(o, { v: start }, { v: end, duration: 2, ease: "power2.out", onUpdate: function () { el.textContent = num(Math.round(o.v)); } }); } });
+  });
+  gsap.fromTo("#tl-line", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: { trigger: "#tl", start: "top 80%", end: "bottom 60%", scrub: true } });
+  $$(".eng svg.lines .dl").forEach(function (ln, i) { ln.style.strokeDasharray = 900; gsap.fromTo(ln, { strokeDashoffset: 900 }, { strokeDashoffset: 0, duration: 1.6, delay: i * 0.15, ease: "power2.inOut", scrollTrigger: { trigger: "#engineer", start: "top 70%", once: true } }); });
+  gsap.from(".callout", { scale: 0.6, y: 14, duration: 0.8, stagger: 0.15, ease: "back.out(1.8)", scrollTrigger: { trigger: "#engineer", start: "top 65%", once: true } });
+}
+
+/* ============ Boot ============ */
+applyLang();
+route(false);
+hdrState();
+if (!loader) startHero();
+if (document.readyState === "loading") window.addEventListener("DOMContentLoaded", motion); else motion();
+})();
+</script>
